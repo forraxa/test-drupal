@@ -1,0 +1,14 @@
+uuid: 6b4ca574-0eab-4113-a6c1-7c1d7b766cf0
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+id: organizacion-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: organizacion
+permissions_ui: true
+permissions: {  }

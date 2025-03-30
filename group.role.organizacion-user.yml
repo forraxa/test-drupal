@@ -1,0 +1,54 @@
+uuid: 827cbbc2-3f5e-4139-944d-ffab960bf4ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+id: organizacion-user
+label: user
+weight: -10
+internal: false
+audience: member
+group_type: organizacion
+permissions_ui: true
+permissions:
+  - 'access group_node overview'
+  - 'create group_node:conexion entity'
+  - 'create group_node:dashboard entity'
+  - 'create group_node:dataset entity'
+  - 'create group_node:noticia entity'
+  - 'create group_node:recurso entity'
+  - 'delete any group_node:conexion entity'
+  - 'delete any group_node:dashboard entity'
+  - 'delete any group_node:dataset entity'
+  - 'delete any group_node:noticia entity'
+  - 'delete any group_node:recurso entity'
+  - 'delete own group_node:conexion entity'
+  - 'delete own group_node:dashboard entity'
+  - 'delete own group_node:dataset entity'
+  - 'delete own group_node:noticia entity'
+  - 'delete own group_node:recurso entity'
+  - 'update any group_node:conexion entity'
+  - 'update any group_node:dashboard entity'
+  - 'update any group_node:dataset entity'
+  - 'update any group_node:noticia entity'
+  - 'update any group_node:recurso entity'
+  - 'update own group_node:conexion entity'
+  - 'update own group_node:dashboard entity'
+  - 'update own group_node:dataset entity'
+  - 'update own group_node:noticia entity'
+  - 'update own group_node:recurso entity'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view group_node:conexion entity'
+  - 'view group_node:dashboard entity'
+  - 'view group_node:dataset entity'
+  - 'view group_node:noticia entity'
+  - 'view group_node:recurso entity'
+  - 'view latest group version'
+  - 'view own unpublished group'
+  - 'view unpublished group_node:conexion entity'
+  - 'view unpublished group_node:dashboard entity'
+  - 'view unpublished group_node:dataset entity'
+  - 'view unpublished group_node:noticia entity'
+  - 'view unpublished group_node:recurso entity'

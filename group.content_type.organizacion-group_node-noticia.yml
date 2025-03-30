@@ -1,0 +1,19 @@
+uuid: fde62542-7f28-4f2e-9cfb-cbdf4ff27e2c
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+    - node.type.noticia
+  module:
+    - gnode
+    - node
+id: organizacion-group_node-noticia
+label: 'Organización: Group node (Noticia)'
+description: 'Adds <em class="placeholder">Noticia</em> content to groups both publicly and privately.'
+group_type: organizacion
+content_plugin: 'group_node:noticia'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

@@ -1,0 +1,10 @@
+uuid: 8b8627e7-62e1-48e0-8423-0218a44052cb
+langcode: es
+status: true
+dependencies: {  }
+id: atr
+label: ATR
+icon_uuid: null
+icon_default: null
+description: 'Indicador ATR'
+behavior_plugins: {  }

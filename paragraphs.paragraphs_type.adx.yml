@@ -1,0 +1,10 @@
+uuid: 05e5fbae-4021-4ad5-b207-6388b94c268d
+langcode: es
+status: true
+dependencies: {  }
+id: adx
+label: ADX
+icon_uuid: null
+icon_default: null
+description: 'Indicador ADX'
+behavior_plugins: {  }

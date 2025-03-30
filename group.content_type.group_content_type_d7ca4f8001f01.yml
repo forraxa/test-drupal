@@ -1,0 +1,19 @@
+uuid: 26403522-3a6b-479b-b66f-a8287c6bed3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+    - node.type.dashboard
+  module:
+    - gnode
+    - node
+id: group_content_type_d7ca4f8001f01
+label: 'Organización: Group node (Dashboard)'
+description: 'Adds <em class="placeholder">Dashboard</em> content to groups both publicly and privately.'
+group_type: organizacion
+content_plugin: 'group_node:dashboard'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

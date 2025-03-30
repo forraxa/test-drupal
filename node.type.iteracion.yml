@@ -1,0 +1,17 @@
+uuid: b07087f8-ed54-4a4f-8404-4df3c6ca0745
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: iteración
+type: iteracion
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

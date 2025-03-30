@@ -1,0 +1,10 @@
+uuid: 7f6edd8a-9904-4f1a-ab61-418d89949612
+langcode: es
+status: true
+dependencies: {  }
+id: bbands
+label: BBANDS
+icon_uuid: null
+icon_default: null
+description: 'Indicador de bandas de bollinguer'
+behavior_plugins: {  }

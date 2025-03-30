@@ -1,0 +1,12 @@
+uuid: 22a90791-b7fc-47b4-a68b-c76110d374cf
+langcode: es
+status: true
+dependencies: {  }
+id: organizacion
+label: Organización
+description: 'Nombre de la Organización en la que se insertará el grupo.'
+new_revision: false
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - organizacion-admin

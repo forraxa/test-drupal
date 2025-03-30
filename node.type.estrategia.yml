@@ -1,0 +1,17 @@
+uuid: 105644c1-2b0e-476a-aaf1-8cb221660949
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Estrategia
+type: estrategia
+description: 'Cada estreategia de trading'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

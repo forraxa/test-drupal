@@ -1,0 +1,17 @@
+uuid: 7afd7a88-d6b1-4fb3-bf36-cf81ad46a684
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+  enforced:
+    config:
+      - user.role.client_admin
+id: organizacion-f9845542f
+label: 'Client admin'
+weight: 4
+internal: true
+audience: outsider
+group_type: organizacion
+permissions_ui: false
+permissions: {  }

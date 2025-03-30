@@ -1,0 +1,17 @@
+uuid: afcde83a-89a5-4452-a596-ae6644098890
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Dashboard
+type: dashboard
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

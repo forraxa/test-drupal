@@ -1,0 +1,31 @@
+uuid: 52d189f8-4362-4774-8c26-4be6fff043fb
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_separador
+field_name: field_separador
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ','
+      label: ','
+    -
+      value: ;
+      label: ;
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

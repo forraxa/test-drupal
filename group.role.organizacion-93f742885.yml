@@ -1,0 +1,17 @@
+uuid: 57b3a83b-ee90-4aff-b081-3cce037ccf89
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+  enforced:
+    config:
+      - user.role.all
+id: organizacion-93f742885
+label: all
+weight: -5
+internal: true
+audience: outsider
+group_type: organizacion
+permissions_ui: false
+permissions: {  }

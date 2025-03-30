@@ -1,0 +1,25 @@
+uuid: d8e96f6a-0940-4c9e-8873-522488e2d849
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_nombre_del_fichero
+field_name: field_nombre_del_fichero
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

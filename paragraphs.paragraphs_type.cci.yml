@@ -1,0 +1,10 @@
+uuid: 48a2cc8f-17e6-4d24-8517-9d34a815e14f
+langcode: es
+status: true
+dependencies: {  }
+id: cci
+label: CCI
+icon_uuid: null
+icon_default: null
+description: 'Indicador CCI'
+behavior_plugins: {  }

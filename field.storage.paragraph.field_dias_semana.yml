@@ -1,0 +1,46 @@
+uuid: 95459d51-baab-42d4-8b25-ac82d6bf73b5
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_dias_semana
+field_name: field_dias_semana
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: Lunes
+    -
+      value: '2'
+      label: Martes
+    -
+      value: '3'
+      label: Miercoles
+    -
+      value: '4'
+      label: Jueves
+    -
+      value: '5'
+      label: Viernes
+    -
+      value: '6'
+      label: Sabado
+    -
+      value: '7'
+      label: Domingo
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

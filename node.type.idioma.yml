@@ -1,0 +1,17 @@
+uuid: ea23f160-4ddb-42cf-9d23-33d83f813e1d
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Idioma
+type: idioma
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

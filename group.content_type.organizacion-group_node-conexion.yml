@@ -1,0 +1,19 @@
+uuid: 8ae8f808-4e15-4247-8bb0-48a30cc6b2ed
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+    - node.type.conexion
+  module:
+    - gnode
+    - node
+id: organizacion-group_node-conexion
+label: 'Organización: Group node (Conexión)'
+description: 'Adds <em class="placeholder">Conexión</em> content to groups both publicly and privately.'
+group_type: organizacion
+content_plugin: 'group_node:conexion'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

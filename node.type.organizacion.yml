@@ -1,0 +1,17 @@
+uuid: 77b8adb2-8353-4cc8-a656-ade51d960701
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Cliente
+type: organizacion
+description: 'Cada una de las entidades que publican datos'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

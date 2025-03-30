@@ -1,0 +1,17 @@
+uuid: 0f2d6687-3863-4703-a053-2ecc1f193e9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Dataset
+type: dataset
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

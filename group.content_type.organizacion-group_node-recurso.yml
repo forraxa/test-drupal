@@ -1,0 +1,19 @@
+uuid: e4f47313-09ff-4534-a274-cd81cb3ccbe9
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+    - node.type.recurso
+  module:
+    - gnode
+    - node
+id: organizacion-group_node-recurso
+label: 'Organización: Group node (Recurso)'
+description: 'Adds <em class="placeholder">Recurso</em> content to groups both publicly and privately.'
+group_type: organizacion
+content_plugin: 'group_node:recurso'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false
