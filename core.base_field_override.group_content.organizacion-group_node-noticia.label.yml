@@ -1,0 +1,18 @@
+uuid: 321491e8-16a6-46c2-a87f-d70e3a6e5c0e
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-noticia
+id: group_content.organizacion-group_node-noticia.label
+field_name: label
+entity_type: group_content
+bundle: organizacion-group_node-noticia
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

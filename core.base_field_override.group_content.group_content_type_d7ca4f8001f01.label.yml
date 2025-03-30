@@ -1,0 +1,18 @@
+uuid: ff6d187d-022f-41ba-a13a-80a0d256a52c
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.group_content_type_d7ca4f8001f01
+id: group_content.group_content_type_d7ca4f8001f01.label
+field_name: label
+entity_type: group_content
+bundle: group_content_type_d7ca4f8001f01
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

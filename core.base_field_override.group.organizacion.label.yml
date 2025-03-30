@@ -1,0 +1,18 @@
+uuid: 9588c981-0193-4828-ab60-51ceb69862c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+id: group.organizacion.label
+field_name: label
+entity_type: group
+bundle: organizacion
+label: 'Nombre del Grupo'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

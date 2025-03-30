@@ -1,0 +1,20 @@
+uuid: de9e0ff3-3afd-4ebd-93fd-fea6a2777b85
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_membership
+  module:
+    - path
+id: group_content.organizacion-group_membership.path
+field_name: path
+entity_type: group_content
+bundle: organizacion-group_membership
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

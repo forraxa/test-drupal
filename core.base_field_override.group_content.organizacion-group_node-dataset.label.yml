@@ -1,0 +1,18 @@
+uuid: fecae639-72ef-4a9a-9da0-8c3fdb1ec883
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-dataset
+id: group_content.organizacion-group_node-dataset.label
+field_name: label
+entity_type: group_content
+bundle: organizacion-group_node-dataset
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

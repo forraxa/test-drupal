@@ -1,0 +1,20 @@
+uuid: 3d9cdad9-046a-4f5f-80d4-1b937768ac23
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-dataset
+  module:
+    - path
+id: group_content.organizacion-group_node-dataset.path
+field_name: path
+entity_type: group_content
+bundle: organizacion-group_node-dataset
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

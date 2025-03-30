@@ -1,0 +1,22 @@
+uuid: 8bad008e-7a46-4ee5-aa9c-8ae8ec93f7c6
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.type.organizacion
+id: group.organizacion.status
+field_name: status
+entity_type: group
+bundle: organizacion
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

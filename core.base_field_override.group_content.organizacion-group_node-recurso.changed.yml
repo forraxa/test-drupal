@@ -1,0 +1,18 @@
+uuid: 36c63755-d408-4125-8bd8-973f0bc38d70
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-recurso
+id: group_content.organizacion-group_node-recurso.changed
+field_name: changed
+entity_type: group_content
+bundle: organizacion-group_node-recurso
+label: 'Changed on'
+description: 'The time that the group content was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: 6c83fd0e-fa2b-4cbf-8729-e9b531308d40
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-conexion
+id: group_content.organizacion-group_node-conexion.created
+field_name: created
+entity_type: group_content
+bundle: organizacion-group_node-conexion
+label: 'Created on'
+description: 'The time that the group content was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
