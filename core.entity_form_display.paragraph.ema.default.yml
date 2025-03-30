@@ -1,0 +1,45 @@
+uuid: 15f91887-2847-48f7-a48a-c6504fceeaa1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ema.field_aplicado
+    - field.field.paragraph.ema.field_condicion_ema
+    - field.field.paragraph.ema.field_nivel
+    - field.field.paragraph.ema.field_periodo
+    - paragraphs.paragraphs_type.ema
+id: paragraph.ema.default
+targetEntityType: paragraph
+bundle: ema
+mode: default
+content:
+  field_aplicado:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_condicion_ema:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nivel:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_periodo:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

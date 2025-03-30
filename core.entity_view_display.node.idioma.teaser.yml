@@ -1,0 +1,25 @@
+uuid: 7e7f83e5-bcbb-40bd-8330-6f9fb112b840
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.idioma.field_abreviatura
+    - field.field.node.idioma.field_fichero
+    - node.type.idioma
+  module:
+    - user
+id: node.idioma.teaser
+targetEntityType: node
+bundle: idioma
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_abreviatura: true
+  field_fichero: true
+  langcode: true

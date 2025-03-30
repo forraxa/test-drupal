@@ -1,0 +1,167 @@
+uuid: e0a26709-f420-405b-a13b-f4e4cc4c0a63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dataset.field_autor
+    - field.field.node.dataset.field_descripcion
+    - field.field.node.dataset.field_email_del_autor
+    - field.field.node.dataset.field_email_del_mantenedor
+    - field.field.node.dataset.field_fecha_publicacion
+    - field.field.node.dataset.field_frecuencia
+    - field.field.node.dataset.field_licencia
+    - field.field.node.dataset.field_mantenedor
+    - field.field.node.dataset.field_nivel_de_acceso
+    - field.field.node.dataset.field_publicado
+    - field.field.node.dataset.field_recursos
+    - field.field.node.dataset.field_tags
+    - field.field.node.dataset.field_tematica
+    - field.field.node.dataset.field_tiempo
+    - field.field.node.dataset.field_ultima_actualizacion
+    - node.type.dataset
+  module:
+    - chosen_field
+    - inline_entity_form
+    - uuid_extra
+id: node.dataset.default
+targetEntityType: node
+bundle: dataset
+mode: default
+content:
+  field_autor:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_descripcion:
+    type: string_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_email_del_autor:
+    type: email_default
+    weight: 12
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_email_del_mantenedor:
+    type: email_default
+    weight: 14
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_fecha_publicacion:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_frecuencia:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_licencia:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_mantenedor:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nivel_de_acceso:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_publicado:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_recursos:
+    type: inline_entity_form_complex
+    weight: 15
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+  field_tags:
+    type: chosen_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tematica:
+    type: chosen_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tiempo:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ultima_actualizacion:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uuid:
+    type: uuid
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  revision_log: true
+  status: true
+  sticky: true
+  translation: true
+  uid: true

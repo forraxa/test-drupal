@@ -1,0 +1,126 @@
+uuid: 7948223d-20c0-40ca-9f59-6bcd6af59fcc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.noticia.field_descripcion_noticia
+    - field.field.node.noticia.field_emb
+    - field.field.node.noticia.field_embed
+    - field.field.node.noticia.field_fecha
+    - field.field.node.noticia.field_iframe
+    - field.field.node.noticia.field_imagen
+    - field.field.node.noticia.field_tematica_noticia
+    - field.field.node.noticia.field_texto_copiado
+    - field.field.node.noticia.field_texto_copiado2
+    - node.type.noticia
+  module:
+    - datetime
+    - iframe
+    - image
+    - text
+id: node.noticia.default
+targetEntityType: node
+bundle: noticia
+mode: default
+content:
+  field_descripcion_noticia:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_emb:
+    type: text_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_embed:
+    type: text_textarea
+    weight: 15
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_fecha:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_iframe:
+    type: iframe_urlwidthheight
+    weight: 11
+    region: content
+    settings:
+      headerlevel: '3'
+      class: ''
+      frameborder: '0'
+      scrolling: auto
+      transparency: '0'
+      allowfullscreen: '0'
+      tokensupport: '0'
+      width: ''
+      height: ''
+      expose_class: false
+    third_party_settings: {  }
+  field_imagen:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: ''
+    third_party_settings: {  }
+  field_tematica_noticia:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_texto_copiado:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_texto_copiado2:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  revision_log: true
+  status: true
+  sticky: true
+  uid: true
+  uuid: true

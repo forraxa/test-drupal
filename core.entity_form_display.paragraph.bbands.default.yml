@@ -1,0 +1,45 @@
+uuid: 653437f1-8de7-4822-9d01-065a90b88b29
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bbands.field_aplicado
+    - field.field.paragraph.bbands.field_condicion_bbands
+    - field.field.paragraph.bbands.field_desviacion
+    - field.field.paragraph.bbands.field_periodo
+    - paragraphs.paragraphs_type.bbands
+id: paragraph.bbands.default
+targetEntityType: paragraph
+bundle: bbands
+mode: default
+content:
+  field_aplicado:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_condicion_bbands:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_desviacion:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_periodo:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

@@ -1,0 +1,41 @@
+uuid: 842ef5d1-3fed-4148-8186-543f921b7d0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grafico_dashboard.field_descripcion
+    - field.field.paragraph.grafico_dashboard.field_espacio_en_linea
+    - field.field.paragraph.grafico_dashboard.field_graficos2
+    - paragraphs.paragraphs_type.grafico_dashboard
+  module:
+    - chosen_field
+id: paragraph.grafico_dashboard.default
+targetEntityType: paragraph
+bundle: grafico_dashboard
+mode: default
+content:
+  field_descripcion:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_espacio_en_linea:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: 'min 25%'
+    third_party_settings: {  }
+  field_graficos2:
+    type: chosen_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

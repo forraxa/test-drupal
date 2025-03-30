@@ -1,0 +1,33 @@
+uuid: 5bcf1d0b-005c-4448-87e6-c8d38a5862df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.conexion.field_base_de_datos
+    - field.field.node.conexion.field_descripcion
+    - field.field.node.conexion.field_host
+    - field.field.node.conexion.field_password
+    - field.field.node.conexion.field_puerto
+    - field.field.node.conexion.field_usuario
+    - node.type.conexion
+  module:
+    - user
+id: node.conexion.teaser
+targetEntityType: node
+bundle: conexion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_base_de_datos: true
+  field_descripcion: true
+  field_host: true
+  field_password: true
+  field_puerto: true
+  field_usuario: true
+  langcode: true

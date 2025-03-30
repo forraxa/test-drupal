@@ -1,0 +1,62 @@
+uuid: c4d11ffe-27eb-49a6-8d0f-7adeef38c7e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.estrategia.field_capital_inicial
+    - field.field.node.estrategia.field_cerrar_al_finalizar_el_vie
+    - field.field.node.estrategia.field_cerrar_al_finalizar_sesion
+    - field.field.node.estrategia.field_compra_venta
+    - field.field.node.estrategia.field_descripcion
+    - field.field.node.estrategia.field_fecha_fin
+    - field.field.node.estrategia.field_fecha_inicio
+    - field.field.node.estrategia.field_grafico_candlestick
+    - field.field.node.estrategia.field_numero_operaciones_abierta
+    - field.field.node.estrategia.field_numero_velas_entre_operaci
+    - field.field.node.estrategia.field_producto
+    - field.field.node.estrategia.field_prueba
+    - field.field.node.estrategia.field_regla_entrada
+    - field.field.node.estrategia.field_regla_salida
+    - field.field.node.estrategia.field_riesgo_por_operacion
+    - field.field.node.estrategia.field_spread
+    - field.field.node.estrategia.field_stoploss
+    - field.field.node.estrategia.field_takeprofit
+    - field.field.node.estrategia.field_tamano_posicion
+    - field.field.node.estrategia.field_timeframe
+    - node.type.estrategia
+  module:
+    - user
+id: node.estrategia.teaser
+targetEntityType: node
+bundle: estrategia
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_capital_inicial: true
+  field_cerrar_al_finalizar_el_vie: true
+  field_cerrar_al_finalizar_sesion: true
+  field_compra_venta: true
+  field_descripcion: true
+  field_fecha_fin: true
+  field_fecha_inicio: true
+  field_grafico_candlestick: true
+  field_numero_operaciones_abierta: true
+  field_numero_velas_entre_operaci: true
+  field_producto: true
+  field_prueba: true
+  field_regla_entrada: true
+  field_regla_salida: true
+  field_riesgo_por_operacion: true
+  field_spread: true
+  field_stoploss: true
+  field_takeprofit: true
+  field_tamano_posicion: true
+  field_timeframe: true
+  langcode: true
+  uuid: true

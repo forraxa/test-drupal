@@ -1,0 +1,24 @@
+uuid: 62f2589b-f6b6-4d79-b037-65573b7b97f7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dias_semana.field_dias_semana
+    - paragraphs.paragraphs_type.dias_semana
+  module:
+    - chosen_field
+id: paragraph.dias_semana.default
+targetEntityType: paragraph
+bundle: dias_semana
+mode: default
+content:
+  field_dias_semana:
+    type: chosen_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

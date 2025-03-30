@@ -1,0 +1,51 @@
+uuid: 59009a92-4b9d-4c3d-8b89-fd0ee099be47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.elasticsearch_recurso.field_conexion
+    - field.field.paragraph.elasticsearch_recurso.field_fichero
+    - field.field.paragraph.elasticsearch_recurso.field_nombre_del_fichero
+    - field.field.paragraph.elasticsearch_recurso.field_query
+    - paragraphs.paragraphs_type.elasticsearch_recurso
+  module:
+    - file
+id: paragraph.elasticsearch_recurso.default
+targetEntityType: paragraph
+bundle: elasticsearch_recurso
+mode: default
+content:
+  field_conexion:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_fichero:
+    type: file_generic
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_nombre_del_fichero:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_query:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  translation: true
+  uuid: true

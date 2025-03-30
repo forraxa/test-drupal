@@ -1,0 +1,32 @@
+uuid: 43d7c94d-e541-490a-aa35-8e069951e8c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.subir_recurso.field_fichero
+    - field.field.paragraph.subir_recurso.field_separador
+    - paragraphs.paragraphs_type.subir_recurso
+  module:
+    - file
+id: paragraph.subir_recurso.default
+targetEntityType: paragraph
+bundle: subir_recurso
+mode: default
+content:
+  field_fichero:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_separador:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

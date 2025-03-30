@@ -1,0 +1,56 @@
+uuid: 00398d25-0ba9-4c4a-a69a-51279397a8aa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.componente.field_color
+    - field.field.paragraph.componente.field_componente_x
+    - field.field.paragraph.componente.field_componente_y
+    - field.field.paragraph.componente.field_nombre
+    - paragraphs.paragraphs_type.componente
+  module:
+    - color_field
+id: paragraph.componente.default
+targetEntityType: paragraph
+bundle: componente
+mode: default
+content:
+  field_color:
+    type: color_field_widget_box
+    weight: 3
+    region: content
+    settings:
+      default_colors: |-
+
+        #ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46
+        #42d692,#16a765,#7bd148,#b3dc6c,#fbe983
+        #92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff
+        #b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2
+        #cd74e6,#a47ae2
+    third_party_settings: {  }
+  field_componente_x:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: 'Número de columna'
+    third_party_settings: {  }
+  field_componente_y:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: 'Número de columna'
+    third_party_settings: {  }
+  field_nombre:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

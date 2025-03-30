@@ -1,0 +1,22 @@
+uuid: 5159635d-0976-4e61-83d0-50c0d3ba5d31
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cliente
+id: taxonomy_term.cliente.status
+field_name: status
+entity_type: taxonomy_term
+bundle: cliente
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

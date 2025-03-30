@@ -1,0 +1,104 @@
+uuid: 85a1844a-ee0b-4d28-916d-63fe3f133f50
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.aplicacion.field_capturas_de_pantalla
+    - field.field.node.aplicacion.field_conjunto_de_datos
+    - field.field.node.aplicacion.field_correo_electronico
+    - field.field.node.aplicacion.field_desarrollador
+    - field.field.node.aplicacion.field_descripcion_aplicacion
+    - field.field.node.aplicacion.field_fecha_aplicacion
+    - field.field.node.aplicacion.field_logotipo
+    - field.field.node.aplicacion.field_plataformas
+    - field.field.node.aplicacion.field_sitio_web
+    - node.type.aplicacion
+  module:
+    - datetime
+    - image
+    - options
+    - user
+id: node.aplicacion.default
+targetEntityType: node
+bundle: aplicacion
+mode: default
+content:
+  field_capturas_de_pantalla:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_conjunto_de_datos:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_correo_electronico:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_desarrollador:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_descripcion_aplicacion:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_fecha_aplicacion:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_logotipo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_plataformas:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_sitio_web:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

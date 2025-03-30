@@ -1,0 +1,35 @@
+uuid: de8a9762-9cea-4f8e-acbb-644c7bc27d33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iconos_footer.field_logotipo
+    - field.field.paragraph.iconos_footer.field_url_a
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.iconos_footer
+  module:
+    - image
+id: paragraph.iconos_footer.default
+targetEntityType: paragraph
+bundle: iconos_footer
+mode: default
+content:
+  field_logotipo:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_url_a:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

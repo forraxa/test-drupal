@@ -1,0 +1,74 @@
+uuid: a0a7af6b-77ab-45d8-b654-dc47388492e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mapa.field_capas_wms
+    - field.field.paragraph.mapa.field_columna_latitud
+    - field.field.paragraph.mapa.field_columna_longitud
+    - field.field.paragraph.mapa.field_leaflet
+    - field.field.paragraph.mapa.field_url_leaflet_tiles
+    - field.field.paragraph.mapa.field_url_wms
+    - field.field.paragraph.mapa.field_wms
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.default
+targetEntityType: paragraph
+bundle: mapa
+mode: default
+content:
+  field_capas_wms:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_columna_latitud:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: 'Número de columna'
+    third_party_settings: {  }
+  field_columna_longitud:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: 'Número de columna'
+    third_party_settings: {  }
+  field_leaflet:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_url_leaflet_tiles:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_url_wms:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_wms:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

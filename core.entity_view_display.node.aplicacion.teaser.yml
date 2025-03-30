@@ -1,0 +1,39 @@
+uuid: 9b39851c-f17b-42c8-9bc0-ceb469f3bf78
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.aplicacion.field_capturas_de_pantalla
+    - field.field.node.aplicacion.field_conjunto_de_datos
+    - field.field.node.aplicacion.field_correo_electronico
+    - field.field.node.aplicacion.field_desarrollador
+    - field.field.node.aplicacion.field_descripcion_aplicacion
+    - field.field.node.aplicacion.field_fecha_aplicacion
+    - field.field.node.aplicacion.field_logotipo
+    - field.field.node.aplicacion.field_plataformas
+    - field.field.node.aplicacion.field_sitio_web
+    - node.type.aplicacion
+  module:
+    - user
+id: node.aplicacion.teaser
+targetEntityType: node
+bundle: aplicacion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_capturas_de_pantalla: true
+  field_conjunto_de_datos: true
+  field_correo_electronico: true
+  field_desarrollador: true
+  field_descripcion_aplicacion: true
+  field_fecha_aplicacion: true
+  field_logotipo: true
+  field_plataformas: true
+  field_sitio_web: true
+  langcode: true

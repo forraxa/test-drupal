@@ -1,0 +1,22 @@
+uuid: 78f642d9-77ca-4df8-a022-6143e5445bfa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.horas.field_horas
+    - paragraphs.paragraphs_type.horas
+id: paragraph.horas.default
+targetEntityType: paragraph
+bundle: horas
+mode: default
+content:
+  field_horas:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

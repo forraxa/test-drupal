@@ -1,0 +1,40 @@
+uuid: afce396b-1b34-484c-a890-d8c513c2487c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dashboard.field_descripcion
+    - field.field.node.dashboard.field_linea
+    - node.type.dashboard
+  module:
+    - entity_reference_revisions
+    - user
+id: node.dashboard.default
+targetEntityType: node
+bundle: dashboard
+mode: default
+content:
+  field_descripcion:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_linea:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  uuid: true

@@ -1,0 +1,116 @@
+uuid: 694d1f80-c749-4749-a7e4-0d5e157834a1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.estrategia.field_capital_inicial
+    - field.field.node.estrategia.field_cerrar_al_finalizar_el_vie
+    - field.field.node.estrategia.field_cerrar_al_finalizar_sesion
+    - field.field.node.estrategia.field_compra_venta
+    - field.field.node.estrategia.field_descripcion
+    - field.field.node.estrategia.field_fecha_fin
+    - field.field.node.estrategia.field_fecha_inicio
+    - field.field.node.estrategia.field_grafico_candlestick
+    - field.field.node.estrategia.field_numero_operaciones_abierta
+    - field.field.node.estrategia.field_numero_velas_entre_operaci
+    - field.field.node.estrategia.field_producto
+    - field.field.node.estrategia.field_prueba
+    - field.field.node.estrategia.field_regla_entrada
+    - field.field.node.estrategia.field_regla_salida
+    - field.field.node.estrategia.field_riesgo_por_operacion
+    - field.field.node.estrategia.field_spread
+    - field.field.node.estrategia.field_stoploss
+    - field.field.node.estrategia.field_takeprofit
+    - field.field.node.estrategia.field_tamano_posicion
+    - field.field.node.estrategia.field_timeframe
+    - node.type.estrategia
+  module:
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_resultados:
+      children:
+        - group_resultado
+        - group_operaciones
+      label: Resultados
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_resultado:
+      children:
+        - field_prueba
+      label: Resultado
+      parent_name: group_resultados
+      region: content
+      weight: 1
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+    group_operaciones:
+      children:
+        - field_grafico_candlestick
+      label: Operaciones
+      parent_name: group_resultados
+      region: content
+      weight: 2
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: closed
+        description: ''
+id: node.estrategia.default
+targetEntityType: node
+bundle: estrategia
+mode: default
+content:
+  field_grafico_candlestick:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_prueba:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_capital_inicial: true
+  field_cerrar_al_finalizar_el_vie: true
+  field_cerrar_al_finalizar_sesion: true
+  field_compra_venta: true
+  field_descripcion: true
+  field_fecha_fin: true
+  field_fecha_inicio: true
+  field_numero_operaciones_abierta: true
+  field_numero_velas_entre_operaci: true
+  field_producto: true
+  field_regla_entrada: true
+  field_regla_salida: true
+  field_riesgo_por_operacion: true
+  field_spread: true
+  field_stoploss: true
+  field_takeprofit: true
+  field_tamano_posicion: true
+  field_timeframe: true
+  langcode: true
+  links: true
+  uuid: true

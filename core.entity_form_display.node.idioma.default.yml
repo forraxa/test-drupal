@@ -1,0 +1,47 @@
+uuid: a09dfae8-e2c4-4b0c-b023-f9e5e4e09cee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.idioma.field_abreviatura
+    - field.field.node.idioma.field_fichero
+    - node.type.idioma
+  module:
+    - file
+id: node.idioma.default
+targetEntityType: node
+bundle: idioma
+mode: default
+content:
+  field_abreviatura:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fichero:
+    type: file_generic
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  revision_log: true
+  status: true
+  sticky: true
+  uid: true

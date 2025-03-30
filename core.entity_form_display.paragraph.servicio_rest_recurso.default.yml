@@ -1,0 +1,58 @@
+uuid: 602204ec-ce8a-4070-8e25-4e3ca9d8d090
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.servicio_rest_recurso.field_extension_fichero_generado
+    - field.field.paragraph.servicio_rest_recurso.field_fichero
+    - field.field.paragraph.servicio_rest_recurso.field_nombre_del_fichero
+    - field.field.paragraph.servicio_rest_recurso.field_separador
+    - field.field.paragraph.servicio_rest_recurso.field_url_endpoint
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - chosen_field
+    - file
+id: paragraph.servicio_rest_recurso.default
+targetEntityType: paragraph
+bundle: servicio_rest_recurso
+mode: default
+content:
+  field_extension_fichero_generado:
+    type: chosen_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_fichero:
+    type: file_generic
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_nombre_del_fichero:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_separador:
+    type: chosen_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_url_endpoint:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

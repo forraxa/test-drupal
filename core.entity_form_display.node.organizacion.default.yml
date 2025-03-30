@@ -1,0 +1,165 @@
+uuid: 2750bb70-90ed-4807-bbef-435b572d979d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.organizacion.field_cliente
+    - field.field.node.organizacion.field_color
+    - field.field.node.organizacion.field_copyright
+    - field.field.node.organizacion.field_descripcion
+    - field.field.node.organizacion.field_direccion
+    - field.field.node.organizacion.field_facebook
+    - field.field.node.organizacion.field_iconos
+    - field.field.node.organizacion.field_idiomas
+    - field.field.node.organizacion.field_logo_footer
+    - field.field.node.organizacion.field_logotipo
+    - field.field.node.organizacion.field_logotipo_footer
+    - field.field.node.organizacion.field_modulos
+    - field.field.node.organizacion.field_tematicas
+    - field.field.node.organizacion.field_twitter
+    - field.field.node.organizacion.field_youtube
+    - image.style.thumbnail
+    - node.type.organizacion
+  module:
+    - chosen_field
+    - color_field
+    - image
+    - paragraphs
+id: node.organizacion.default
+targetEntityType: node
+bundle: organizacion
+mode: default
+content:
+  field_cliente:
+    type: options_buttons
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_color:
+    type: color_field_widget_box
+    weight: 3
+    region: content
+    settings:
+      default_colors: '#ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46,#42d692,#16a765,#7bd148,#b3dc6c,#fbe983,#92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff,#b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2,#cd74e6,#a47ae2,#e20074,#292929'
+    third_party_settings: {  }
+  field_copyright:
+    type: string_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+  field_descripcion:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_direccion:
+    type: string_textarea
+    weight: 10
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_facebook:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_idiomas:
+    type: options_buttons
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_logo_footer:
+    type: paragraphs
+    weight: 12
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_logotipo:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_logotipo_footer:
+    type: image_image
+    weight: 9
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_modulos:
+    type: chosen_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tematicas:
+    type: chosen_select
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_twitter:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_youtube:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_iconos: true
+  langcode: true
+  path: true
+  promote: true
+  revision_log: true
+  status: true
+  sticky: true
+  translation: true
+  uid: true
+  uuid: true

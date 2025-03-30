@@ -1,0 +1,345 @@
+uuid: 47e419fe-7e10-4a1a-ad3f-c3dce4f62e33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.estrategia.field_capital_inicial
+    - field.field.node.estrategia.field_cerrar_al_finalizar_el_vie
+    - field.field.node.estrategia.field_cerrar_al_finalizar_sesion
+    - field.field.node.estrategia.field_compra_venta
+    - field.field.node.estrategia.field_descripcion
+    - field.field.node.estrategia.field_fecha_fin
+    - field.field.node.estrategia.field_fecha_inicio
+    - field.field.node.estrategia.field_grafico_candlestick
+    - field.field.node.estrategia.field_numero_operaciones_abierta
+    - field.field.node.estrategia.field_numero_velas_entre_operaci
+    - field.field.node.estrategia.field_producto
+    - field.field.node.estrategia.field_prueba
+    - field.field.node.estrategia.field_regla_entrada
+    - field.field.node.estrategia.field_regla_salida
+    - field.field.node.estrategia.field_riesgo_por_operacion
+    - field.field.node.estrategia.field_spread
+    - field.field.node.estrategia.field_stoploss
+    - field.field.node.estrategia.field_takeprofit
+    - field.field.node.estrategia.field_tamano_posicion
+    - field.field.node.estrategia.field_timeframe
+    - node.type.estrategia
+  module:
+    - datetime
+    - field_group
+    - paragraphs
+    - text
+    - uuid_extra
+third_party_settings:
+  field_group:
+    group_pestanas:
+      children:
+        - group_condiciones_generales
+        - group_gestion_operacion
+        - group_reglas_entrada
+        - group_reglas_salida
+        - group_resultado
+      label: pestañas
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_condiciones_generales:
+      children:
+        - title
+        - field_descripcion
+        - group_inline
+        - field_fecha_inicio
+        - field_fecha_fin
+        - field_capital_inicial
+        - field_prueba
+      label: 'Condiciones generales'
+      region: content
+      parent_name: group_pestanas
+      weight: 1
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: open
+        description: 'Condiciones generales de la estrategia'
+        required_fields: true
+    group_gestion_operacion:
+      children:
+        - field_tamano_posicion
+        - field_stoploss
+        - field_takeprofit
+        - field_spread
+        - field_cerrar_al_finalizar_sesion
+        - field_cerrar_al_finalizar_el_vie
+        - field_numero_velas_entre_operaci
+        - field_numero_operaciones_abierta
+      label: 'Gestión Operación'
+      region: content
+      parent_name: group_pestanas
+      weight: 2
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: closed
+        description: 'Gestión de la operación'
+        required_fields: true
+    group_reglas_entrada:
+      children:
+        - field_regla_entrada
+      label: 'Reglas Entrada'
+      region: content
+      parent_name: group_pestanas
+      weight: 3
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_reglas_salida:
+      children:
+        - field_regla_salida
+      label: 'Reglas Salida'
+      region: content
+      parent_name: group_pestanas
+      weight: 4
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_inline:
+      children:
+        - field_producto
+        - field_timeframe
+        - field_compra_venta
+      label: inline
+      region: content
+      parent_name: group_condiciones_generales
+      weight: 8
+      format_type: html_element
+      format_settings:
+        classes: container-inline
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        required_fields: true
+    group_resultado:
+      children: {  }
+      label: Resultado
+      region: hidden
+      parent_name: group_pestanas
+      weight: 5
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+id: node.estrategia.default
+targetEntityType: node
+bundle: estrategia
+mode: default
+content:
+  field_capital_inicial:
+    type: number
+    weight: 14
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_cerrar_al_finalizar_el_vie:
+    type: boolean_checkbox
+    weight: 24
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_cerrar_al_finalizar_sesion:
+    type: boolean_checkbox
+    weight: 23
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_compra_venta:
+    type: options_select
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_descripcion:
+    type: string_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_fecha_fin:
+    type: datetime_default
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_fecha_inicio:
+    type: datetime_default
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_grafico_candlestick:
+    type: text_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_numero_operaciones_abierta:
+    type: number
+    weight: 26
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_numero_velas_entre_operaci:
+    type: number
+    weight: 25
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_producto:
+    type: options_select
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_prueba:
+    type: text_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_regla_entrada:
+    type: paragraphs
+    weight: 9
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: '0'
+    third_party_settings: {  }
+  field_regla_salida:
+    type: paragraphs
+    weight: 26
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: '0'
+    third_party_settings: {  }
+  field_spread:
+    type: number
+    weight: 22
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_stoploss:
+    type: number
+    weight: 20
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_takeprofit:
+    type: number
+    weight: 21
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tamano_posicion:
+    type: number
+    weight: 19
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_timeframe:
+    type: options_select
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uuid:
+    type: uuid
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_riesgo_por_operacion: true
+  langcode: true
+  path: true
+  promote: true
+  revision_log: true
+  status: true
+  sticky: true
+  uid: true

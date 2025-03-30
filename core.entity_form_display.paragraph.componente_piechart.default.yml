@@ -1,0 +1,73 @@
+uuid: 1bc7ec39-54c9-42d0-b1d9-f9308380b41a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.componente_piechart.field_color
+    - field.field.paragraph.componente_piechart.field_columna_de_nombres
+    - field.field.paragraph.componente_piechart.field_columna_de_valores
+    - field.field.paragraph.componente_piechart.field_etiqueta_visible
+    - field.field.paragraph.componente_piechart.field_radio_exterior
+    - field.field.paragraph.componente_piechart.field_radio_interior
+    - paragraphs.paragraphs_type.componente_piechart
+  module:
+    - color_field
+id: paragraph.componente_piechart.default
+targetEntityType: paragraph
+bundle: componente_piechart
+mode: default
+content:
+  field_color:
+    type: color_field_widget_box
+    weight: 2
+    region: content
+    settings:
+      default_colors: |-
+
+        #ac725e,#d06b64,#f83a22,#fa573c,#ff7537,#ffad46
+        #42d692,#16a765,#7bd148,#b3dc6c,#fbe983
+        #92e1c0,#9fe1e7,#9fc6e7,#4986e7,#9a9cff
+        #b99aff,#c2c2c2,#cabdbf,#cca6ac,#f691b2
+        #cd74e6,#a47ae2
+    third_party_settings: {  }
+  field_columna_de_nombres:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_columna_de_valores:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_etiqueta_visible:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_radio_exterior:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: 'max 300'
+    third_party_settings: {  }
+  field_radio_interior:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: 'min 0'
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

@@ -1,0 +1,45 @@
+uuid: b90ec51f-5a38-4305-9988-029c1440ef08
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mom.field_aplicado
+    - field.field.paragraph.mom.field_condicion_mom
+    - field.field.paragraph.mom.field_nivel
+    - field.field.paragraph.mom.field_periodo
+    - paragraphs.paragraphs_type.mom
+id: paragraph.mom.default
+targetEntityType: paragraph
+bundle: mom
+mode: default
+content:
+  field_aplicado:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_condicion_mom:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nivel:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_periodo:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

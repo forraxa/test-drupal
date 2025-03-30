@@ -1,0 +1,31 @@
+uuid: e8842b12-4403-4dc8-9db1-f25309eb9dfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_cliente
+  module:
+    - user
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cliente:
+    type: options_buttons
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  contact: true
+  langcode: true
+  language: true
+  timezone: true

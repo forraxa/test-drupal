@@ -1,0 +1,45 @@
+uuid: 51664f2a-1b69-4906-8d63-11d9e313ec58
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.rsi.field_aplicado
+    - field.field.paragraph.rsi.field_condicion_rsi
+    - field.field.paragraph.rsi.field_nivel
+    - field.field.paragraph.rsi.field_periodo
+    - paragraphs.paragraphs_type.rsi
+id: paragraph.rsi.default
+targetEntityType: paragraph
+bundle: rsi
+mode: default
+content:
+  field_aplicado:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_condicion_rsi:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nivel:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_periodo:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uuid: true

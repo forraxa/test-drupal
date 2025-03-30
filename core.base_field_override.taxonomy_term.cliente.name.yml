@@ -1,0 +1,18 @@
+uuid: 95dd6893-4da4-4c15-997a-b07bba2b88f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cliente
+id: taxonomy_term.cliente.name
+field_name: name
+entity_type: taxonomy_term
+bundle: cliente
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
