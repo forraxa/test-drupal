@@ -1,0 +1,20 @@
+uuid: bacba924-6706-4b0b-8fc3-879dcdaacd9c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+id: node.terminos_de_uso.uid
+field_name: uid
+entity_type: node
+bundle: terminos_de_uso
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

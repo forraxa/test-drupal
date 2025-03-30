@@ -1,0 +1,22 @@
+uuid: aac3cb8d-1f99-4924-8cc6-ab71fb228818
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+id: node.terminos_de_uso.status
+field_name: status
+entity_type: node
+bundle: terminos_de_uso
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

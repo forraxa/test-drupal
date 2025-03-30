@@ -1,0 +1,22 @@
+uuid: fd48f9b1-c0a6-49c9-89c3-5a63d5447ed9
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+id: node.terminos_de_uso.promote
+field_name: promote
+entity_type: node
+bundle: terminos_de_uso
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

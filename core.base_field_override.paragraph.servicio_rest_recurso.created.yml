@@ -1,0 +1,18 @@
+uuid: 4c2ec879-6c7c-4063-8c2c-098fb65d7414
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+id: paragraph.servicio_rest_recurso.created
+field_name: created
+entity_type: paragraph
+bundle: servicio_rest_recurso
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,22 @@
+uuid: 4c517cb4-3916-404a-8eed-778c56d94648
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+id: node.recurso.sticky
+field_name: sticky
+entity_type: node
+bundle: recurso
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

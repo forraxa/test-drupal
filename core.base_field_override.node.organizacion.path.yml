@@ -1,0 +1,20 @@
+uuid: 89bc5fc2-8fdc-44d9-b6b9-880c8aa8f4b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.organizacion
+  module:
+    - path
+id: node.organizacion.path
+field_name: path
+entity_type: node
+bundle: organizacion
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

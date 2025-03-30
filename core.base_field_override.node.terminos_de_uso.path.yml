@@ -1,0 +1,20 @@
+uuid: 431b7299-3bdc-41db-b1a3-d31fbd703a4a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+  module:
+    - path
+id: node.terminos_de_uso.path
+field_name: path
+entity_type: node
+bundle: terminos_de_uso
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

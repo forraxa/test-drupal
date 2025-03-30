@@ -1,0 +1,22 @@
+uuid: 810fbc96-fdd8-4994-a5e9-269b7373d2f5
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.status
+field_name: status
+entity_type: paragraph
+bundle: mapa
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 5b0dab7e-124f-4e93-8bf0-2502fdf28e66
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.elasticsearch_recurso
+id: paragraph.elasticsearch_recurso.status
+field_name: status
+entity_type: paragraph
+bundle: elasticsearch_recurso
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

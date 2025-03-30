@@ -1,0 +1,22 @@
+uuid: 034ee7c0-f57f-41a7-9ed4-908541b9bdbc
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.componente_piechart
+id: paragraph.componente_piechart.status
+field_name: status
+entity_type: paragraph
+bundle: componente_piechart
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 6433e283-f4a3-4dde-8af4-4d6aeb0e3151
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.iconos_footer
+id: paragraph.iconos_footer.status
+field_name: status
+entity_type: paragraph
+bundle: iconos_footer
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

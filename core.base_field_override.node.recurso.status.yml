@@ -1,0 +1,22 @@
+uuid: 1bfbf702-c64a-4fcb-8940-e5416ea88852
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+id: node.recurso.status
+field_name: status
+entity_type: node
+bundle: recurso
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

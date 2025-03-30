@@ -1,0 +1,18 @@
+uuid: 44967d92-0e6a-4ea4-856f-27eee3174346
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+id: node.recurso.changed
+field_name: changed
+entity_type: node
+bundle: recurso
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

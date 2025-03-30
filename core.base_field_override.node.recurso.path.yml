@@ -1,0 +1,20 @@
+uuid: 8bb66791-205b-4233-ba77-3a95ffd8e829
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+  module:
+    - path
+id: node.recurso.path
+field_name: path
+entity_type: node
+bundle: recurso
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

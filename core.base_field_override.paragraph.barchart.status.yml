@@ -1,0 +1,22 @@
+uuid: ac702029-4429-4c4b-9a52-12997070ae44
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.barchart
+id: paragraph.barchart.status
+field_name: status
+entity_type: paragraph
+bundle: barchart
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

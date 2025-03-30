@@ -1,0 +1,18 @@
+uuid: f775a2cb-0131-40a8-bb9e-6fccddff7fec
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+id: node.recurso.created
+field_name: created
+entity_type: node
+bundle: recurso
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

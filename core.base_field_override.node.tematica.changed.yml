@@ -1,0 +1,18 @@
+uuid: b14ff5fd-04d7-49f5-9cfe-0436f84100b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tematica
+id: node.tematica.changed
+field_name: changed
+entity_type: node
+bundle: tematica
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,22 @@
+uuid: fa9fb32c-b6bf-4d4c-b639-bd975d37f8e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+id: node.terminos_de_uso.sticky
+field_name: sticky
+entity_type: node
+bundle: terminos_de_uso
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

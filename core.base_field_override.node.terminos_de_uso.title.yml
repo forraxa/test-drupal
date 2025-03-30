@@ -1,0 +1,18 @@
+uuid: 3d12f929-3c93-4b19-a605-4557f98393a5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.terminos_de_uso
+id: node.terminos_de_uso.title
+field_name: title
+entity_type: node
+bundle: terminos_de_uso
+label: Título
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

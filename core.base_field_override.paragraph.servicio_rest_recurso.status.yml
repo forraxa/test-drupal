@@ -1,0 +1,22 @@
+uuid: f8538539-a2c6-4107-8195-bcaa32349b70
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+id: paragraph.servicio_rest_recurso.status
+field_name: status
+entity_type: paragraph
+bundle: servicio_rest_recurso
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

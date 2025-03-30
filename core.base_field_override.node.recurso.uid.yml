@@ -1,0 +1,20 @@
+uuid: 25a03dfb-3589-4b0f-8c30-c3e91d6f70cb
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+id: node.recurso.uid
+field_name: uid
+entity_type: node
+bundle: recurso
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

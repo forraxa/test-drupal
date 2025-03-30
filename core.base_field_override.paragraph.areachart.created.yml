@@ -1,0 +1,18 @@
+uuid: 729c2fca-f6fa-4a84-97da-2694bfca6664
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.areachart
+id: paragraph.areachart.created
+field_name: created
+entity_type: paragraph
+bundle: areachart
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

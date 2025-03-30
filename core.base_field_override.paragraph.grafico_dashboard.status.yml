@@ -1,0 +1,22 @@
+uuid: c0a08a04-4fb1-4137-9c7b-c3bb7952ce69
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.grafico_dashboard
+id: paragraph.grafico_dashboard.status
+field_name: status
+entity_type: paragraph
+bundle: grafico_dashboard
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

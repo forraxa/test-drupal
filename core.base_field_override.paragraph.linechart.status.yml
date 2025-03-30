@@ -1,0 +1,22 @@
+uuid: d10594e1-cbc9-43fc-8786-ec2db77f81ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.linechart
+id: paragraph.linechart.status
+field_name: status
+entity_type: paragraph
+bundle: linechart
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

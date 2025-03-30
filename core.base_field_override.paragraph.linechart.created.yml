@@ -1,0 +1,18 @@
+uuid: 87d24d84-5a76-45e2-beb8-7aa7fbd87ce2
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.linechart
+id: paragraph.linechart.created
+field_name: created
+entity_type: paragraph
+bundle: linechart
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

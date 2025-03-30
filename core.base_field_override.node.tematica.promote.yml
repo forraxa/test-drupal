@@ -1,0 +1,22 @@
+uuid: e30782cb-2da1-4194-a681-7b9871193850
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tematica
+id: node.tematica.promote
+field_name: promote
+entity_type: node
+bundle: tematica
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

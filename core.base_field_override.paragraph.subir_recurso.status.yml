@@ -1,0 +1,22 @@
+uuid: 357d3681-23a8-4c19-82c2-448cde1dfeb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.subir_recurso
+id: paragraph.subir_recurso.status
+field_name: status
+entity_type: paragraph
+bundle: subir_recurso
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

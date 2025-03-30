@@ -1,0 +1,20 @@
+uuid: bb6e164e-f86a-44d9-afdd-09d9de2760c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tematica
+  module:
+    - path
+id: node.tematica.path
+field_name: path
+entity_type: node
+bundle: tematica
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
