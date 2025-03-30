@@ -1,0 +1,59 @@
+uuid: ac6b05ce-8310-4d55-9266-90ca841b191f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.postgres_recurso.field_conexion
+    - field.field.paragraph.postgres_recurso.field_fichero
+    - field.field.paragraph.postgres_recurso.field_nombre_del_fichero
+    - field.field.paragraph.postgres_recurso.field_query
+    - field.field.paragraph.postgres_recurso.field_separador
+    - paragraphs.paragraphs_type.postgres_recurso
+  module:
+    - file
+    - options
+id: paragraph.postgres_recurso.default
+targetEntityType: paragraph
+bundle: postgres_recurso
+mode: default
+content:
+  field_conexion:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_fichero:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_nombre_del_fichero:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_query:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_separador:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

@@ -1,0 +1,43 @@
+uuid: d8f1ebd6-32e6-4dba-8942-d9efa9c35323
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cci.field_condicion_cci
+    - field.field.paragraph.cci.field_nivel
+    - field.field.paragraph.cci.field_periodo
+    - paragraphs.paragraphs_type.cci
+  module:
+    - options
+id: paragraph.cci.default
+targetEntityType: paragraph
+bundle: cci
+mode: default
+content:
+  field_condicion_cci:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  uuid: true

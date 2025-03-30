@@ -1,0 +1,20 @@
+uuid: 4b441e61-7caf-46fc-b4aa-f2c337136953
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_cliente
+  module:
+    - user
+_core:
+  default_config_hash: kD2TjItfNDKFw2CFJQfuv4Ys6qg3uYa4hCJYN2jreec
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  field_cliente: true
+  langcode: true
+  member_for: true

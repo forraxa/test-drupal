@@ -1,0 +1,25 @@
+uuid: 4c886a8c-df2a-4bdd-8483-18b1f813f284
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.linea_dashboard.field_grafico
+    - paragraphs.paragraphs_type.linea_dashboard
+  module:
+    - entity_reference_revisions
+id: paragraph.linea_dashboard.default
+targetEntityType: paragraph
+bundle: linea_dashboard
+mode: default
+content:
+  field_grafico:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  uuid: true

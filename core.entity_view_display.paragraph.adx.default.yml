@@ -1,0 +1,43 @@
+uuid: fe082325-64c5-44ce-83bb-ba0333dc9c3e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.adx.field_condicion_adx
+    - field.field.paragraph.adx.field_nivel
+    - field.field.paragraph.adx.field_periodo
+    - paragraphs.paragraphs_type.adx
+  module:
+    - options
+id: paragraph.adx.default
+targetEntityType: paragraph
+bundle: adx
+mode: default
+content:
+  field_condicion_adx:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  uuid: true

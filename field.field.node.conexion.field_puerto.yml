@@ -1,0 +1,19 @@
+uuid: ac475caf-7c48-431c-ae12-63fbc124cd3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_puerto
+    - node.type.conexion
+id: node.conexion.field_puerto
+field_name: field_puerto
+entity_type: node
+bundle: conexion
+label: Puerto
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

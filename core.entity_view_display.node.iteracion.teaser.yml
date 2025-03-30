@@ -1,0 +1,26 @@
+uuid: 9fbbbfa3-379b-4bef-b416-7c039aff63a4
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.iteracion.field_fichero
+    - field.field.node.iteracion.field_resultado
+    - node.type.iteracion
+  module:
+    - user
+id: node.iteracion.teaser
+targetEntityType: node
+bundle: iteracion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fichero: true
+  field_resultado: true
+  langcode: true
+  uuid: true

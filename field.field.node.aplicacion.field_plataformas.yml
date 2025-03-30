@@ -1,0 +1,21 @@
+uuid: 6801d702-b717-47ab-9054-23a0979fba7f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_plataformas
+    - node.type.aplicacion
+  module:
+    - options
+id: node.aplicacion.field_plataformas
+field_name: field_plataformas
+entity_type: node
+bundle: aplicacion
+label: Plataformas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

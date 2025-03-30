@@ -1,0 +1,51 @@
+uuid: f97b633f-ed69-48e1-b061-1ac74345f1d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ema.field_aplicado
+    - field.field.paragraph.ema.field_condicion_ema
+    - field.field.paragraph.ema.field_nivel
+    - field.field.paragraph.ema.field_periodo
+    - paragraphs.paragraphs_type.ema
+  module:
+    - options
+id: paragraph.ema.default
+targetEntityType: paragraph
+bundle: ema
+mode: default
+content:
+  field_aplicado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_condicion_ema:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

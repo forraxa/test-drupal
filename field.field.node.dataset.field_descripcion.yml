@@ -1,0 +1,19 @@
+uuid: dda4d849-a865-47e4-811f-0770b4f077c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.dataset
+id: node.dataset.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: dataset
+label: Descripción
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

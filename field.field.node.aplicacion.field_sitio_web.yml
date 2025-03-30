@@ -1,0 +1,19 @@
+uuid: 63d9b8cf-c4a8-41c6-854e-69d43e1618df
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sitio_web
+    - node.type.aplicacion
+id: node.aplicacion.field_sitio_web
+field_name: field_sitio_web
+entity_type: node
+bundle: aplicacion
+label: 'Sitio Web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

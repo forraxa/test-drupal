@@ -1,0 +1,21 @@
+uuid: cc1f026b-a8cc-40eb-995a-a4807fbfa5df
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_aplicacion
+    - node.type.aplicacion
+  module:
+    - datetime
+id: node.aplicacion.field_fecha_aplicacion
+field_name: field_fecha_aplicacion
+entity_type: node
+bundle: aplicacion
+label: 'Fecha publicación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,54 @@
+uuid: a0db9c82-6555-4996-85b9-3bd4e73770c6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.componente.field_color
+    - field.field.paragraph.componente.field_componente_x
+    - field.field.paragraph.componente.field_componente_y
+    - field.field.paragraph.componente.field_nombre
+    - paragraphs.paragraphs_type.componente
+  module:
+    - color_field
+id: paragraph.componente.default
+targetEntityType: paragraph
+bundle: componente
+mode: default
+content:
+  field_color:
+    type: color_field_formatter_text
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_componente_x:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_componente_y:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_nombre:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  uuid: true

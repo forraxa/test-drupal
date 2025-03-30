@@ -1,0 +1,73 @@
+uuid: 50de153b-2dd5-4bdc-8b7d-a458c87e5e5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linea
+    - node.type.dashboard
+    - paragraphs.paragraphs_type.linea_dashboard
+  module:
+    - entity_reference_revisions
+id: node.dashboard.field_linea
+field_name: field_linea
+entity_type: node
+bundle: dashboard
+label: Línea
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      linea_dashboard: linea_dashboard
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: 16
+        enabled: false
+      barchart:
+        weight: 17
+        enabled: false
+      componente:
+        weight: 18
+        enabled: false
+      componente_piechart:
+        weight: 19
+        enabled: false
+      elasticsearch_recurso:
+        weight: 20
+        enabled: false
+      grafico_dashboard:
+        weight: 21
+        enabled: false
+      iconos_footer:
+        weight: 22
+        enabled: false
+      linea_dashboard:
+        weight: 23
+        enabled: true
+      linechart:
+        weight: 24
+        enabled: false
+      mapa:
+        weight: 25
+        enabled: false
+      piechart:
+        weight: 26
+        enabled: false
+      postgres_recurso:
+        weight: 27
+        enabled: false
+      servicio_rest_recurso:
+        weight: 28
+        enabled: false
+      subir_recurso:
+        weight: 29
+        enabled: false
+      tabla:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

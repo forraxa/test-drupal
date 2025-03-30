@@ -1,0 +1,63 @@
+uuid: b95e13b4-4e3b-428a-a5d9-d109a38cec6f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.stoch.field_condicion_stoch
+    - field.field.paragraph.stoch.field_fastk
+    - field.field.paragraph.stoch.field_nivel
+    - field.field.paragraph.stoch.field_slowd
+    - field.field.paragraph.stoch.field_slowk
+    - paragraphs.paragraphs_type.stoch
+  module:
+    - options
+id: paragraph.stoch.default
+targetEntityType: paragraph
+bundle: stoch
+mode: default
+content:
+  field_condicion_stoch:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_fastk:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_slowd:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_slowk:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

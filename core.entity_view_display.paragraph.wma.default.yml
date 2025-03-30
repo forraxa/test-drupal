@@ -1,0 +1,51 @@
+uuid: ab5a9384-4dcc-47d3-b480-a10e302f3788
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wma.field_aplicado
+    - field.field.paragraph.wma.field_condicion_wma
+    - field.field.paragraph.wma.field_nivel
+    - field.field.paragraph.wma.field_periodo
+    - paragraphs.paragraphs_type.wma
+  module:
+    - options
+id: paragraph.wma.default
+targetEntityType: paragraph
+bundle: wma
+mode: default
+content:
+  field_aplicado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_condicion_wma:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

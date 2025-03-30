@@ -1,0 +1,36 @@
+uuid: 3476ad1a-eeff-4a80-884a-5371261aeb91
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.piechart.field_pie
+    - field.field.paragraph.piechart.field_todo_apilado
+    - paragraphs.paragraphs_type.piechart
+  module:
+    - entity_reference_revisions
+id: paragraph.piechart.default
+targetEntityType: paragraph
+bundle: piechart
+mode: default
+content:
+  field_pie:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_todo_apilado:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  uuid: true

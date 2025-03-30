@@ -1,0 +1,52 @@
+uuid: cda83d3e-ae5c-4eb0-9e70-91c24a131efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organizacion.field_cliente
+    - field.field.node.organizacion.field_color
+    - field.field.node.organizacion.field_copyright
+    - field.field.node.organizacion.field_descripcion
+    - field.field.node.organizacion.field_direccion
+    - field.field.node.organizacion.field_facebook
+    - field.field.node.organizacion.field_iconos
+    - field.field.node.organizacion.field_idiomas
+    - field.field.node.organizacion.field_logo_footer
+    - field.field.node.organizacion.field_logotipo
+    - field.field.node.organizacion.field_logotipo_footer
+    - field.field.node.organizacion.field_modulos
+    - field.field.node.organizacion.field_tematicas
+    - field.field.node.organizacion.field_twitter
+    - field.field.node.organizacion.field_youtube
+    - node.type.organizacion
+  module:
+    - user
+id: node.organizacion.teaser
+targetEntityType: node
+bundle: organizacion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cliente: true
+  field_color: true
+  field_copyright: true
+  field_descripcion: true
+  field_direccion: true
+  field_facebook: true
+  field_iconos: true
+  field_idiomas: true
+  field_logo_footer: true
+  field_logotipo: true
+  field_logotipo_footer: true
+  field_modulos: true
+  field_tematicas: true
+  field_twitter: true
+  field_youtube: true
+  langcode: true
+  uuid: true

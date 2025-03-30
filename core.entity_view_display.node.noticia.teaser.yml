@@ -1,0 +1,40 @@
+uuid: d377b9f5-4d7e-4ab9-9ad8-fb82a82f94ec
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.noticia.field_descripcion_noticia
+    - field.field.node.noticia.field_emb
+    - field.field.node.noticia.field_embed
+    - field.field.node.noticia.field_fecha
+    - field.field.node.noticia.field_iframe
+    - field.field.node.noticia.field_imagen
+    - field.field.node.noticia.field_tematica_noticia
+    - field.field.node.noticia.field_texto_copiado
+    - field.field.node.noticia.field_texto_copiado2
+    - node.type.noticia
+  module:
+    - user
+id: node.noticia.teaser
+targetEntityType: node
+bundle: noticia
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcion_noticia: true
+  field_emb: true
+  field_embed: true
+  field_fecha: true
+  field_iframe: true
+  field_imagen: true
+  field_tematica_noticia: true
+  field_texto_copiado: true
+  field_texto_copiado2: true
+  langcode: true
+  uuid: true

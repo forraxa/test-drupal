@@ -1,0 +1,41 @@
+uuid: 8b778af0-6e16-4844-bdd4-cb881b49f31c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.maverage.field_aplicado
+    - field.field.paragraph.maverage.field_condicion_ma
+    - field.field.paragraph.maverage.field_periodo
+    - paragraphs.paragraphs_type.maverage
+  module:
+    - options
+id: paragraph.maverage.default
+targetEntityType: paragraph
+bundle: maverage
+mode: default
+content:
+  field_aplicado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_condicion_ma:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  uuid: true

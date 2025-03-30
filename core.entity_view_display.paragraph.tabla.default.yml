@@ -1,0 +1,13 @@
+uuid: 8804456c-da1c-4959-9ad6-c35408ef5304
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.tabla
+id: paragraph.tabla.default
+targetEntityType: paragraph
+bundle: tabla
+mode: default
+content: {  }
+hidden:
+  uuid: true

@@ -1,0 +1,19 @@
+uuid: eefa9fe5-3e81-4994-8689-ce47f283fc68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.dataset
+id: node.dataset.field_autor
+field_name: field_autor
+entity_type: node
+bundle: dataset
+label: Autor
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

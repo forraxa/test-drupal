@@ -1,0 +1,21 @@
+uuid: c83a2068-4444-4652-bf28-4c38f267e57c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_descrip
+    - group.type.organizacion
+  module:
+    - text
+id: group.organizacion.field_descrip
+field_name: field_descrip
+entity_type: group
+bundle: organizacion
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

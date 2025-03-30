@@ -1,0 +1,33 @@
+uuid: 4a07c2af-fe14-4407-ba00-a9bf0e7a78c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.subir_recurso.field_fichero
+    - field.field.paragraph.subir_recurso.field_separador
+    - paragraphs.paragraphs_type.subir_recurso
+  module:
+    - file
+    - options
+id: paragraph.subir_recurso.default
+targetEntityType: paragraph
+bundle: subir_recurso
+mode: default
+content:
+  field_fichero:
+    type: file_default
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_separador:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  uuid: true

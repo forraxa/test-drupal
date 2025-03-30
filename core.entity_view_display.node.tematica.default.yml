@@ -1,0 +1,30 @@
+uuid: c9fc85d2-556a-4163-b109-ea4cc875f466
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tematica.field_icono_tematica
+    - node.type.tematica
+  module:
+    - file
+    - user
+id: node.tematica.default
+targetEntityType: node
+bundle: tematica
+mode: default
+content:
+  field_icono_tematica:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,59 @@
+uuid: 3c218d8e-63bf-40e0-9e76-5c5f9d6584f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.servicio_rest_recurso.field_extension_fichero_generado
+    - field.field.paragraph.servicio_rest_recurso.field_fichero
+    - field.field.paragraph.servicio_rest_recurso.field_nombre_del_fichero
+    - field.field.paragraph.servicio_rest_recurso.field_separador
+    - field.field.paragraph.servicio_rest_recurso.field_url_endpoint
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - file
+    - options
+id: paragraph.servicio_rest_recurso.default
+targetEntityType: paragraph
+bundle: servicio_rest_recurso
+mode: default
+content:
+  field_extension_fichero_generado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_fichero:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nombre_del_fichero:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_separador:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_url_endpoint:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

@@ -1,0 +1,43 @@
+uuid: 2c54d845-c454-4b07-9fa1-6281b8fd7986
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.linechart.field_componente
+    - field.field.paragraph.linechart.field_nombre_eje_x
+    - field.field.paragraph.linechart.field_nombre_eje_y
+    - paragraphs.paragraphs_type.linechart
+  module:
+    - entity_reference_revisions
+id: paragraph.linechart.default
+targetEntityType: paragraph
+bundle: linechart
+mode: default
+content:
+  field_componente:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nombre_eje_x:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nombre_eje_y:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  uuid: true

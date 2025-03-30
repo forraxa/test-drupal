@@ -1,0 +1,23 @@
+uuid: 36b558d9-ffbe-4420-a1d5-743a87b45e90
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tematica.field_icono_tematica
+    - node.type.tematica
+  module:
+    - user
+id: node.tematica.teaser
+targetEntityType: node
+bundle: tematica
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_icono_tematica: true
+  langcode: true

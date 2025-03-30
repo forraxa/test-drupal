@@ -1,0 +1,54 @@
+uuid: 5b46d55c-ba63-4972-bd80-3a111b42aabe
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.barchart.field_componente
+    - field.field.paragraph.barchart.field_nombre_eje_x
+    - field.field.paragraph.barchart.field_nombre_eje_y
+    - field.field.paragraph.barchart.field_todo_apilado
+    - paragraphs.paragraphs_type.barchart
+  module:
+    - entity_reference_revisions
+id: paragraph.barchart.default
+targetEntityType: paragraph
+bundle: barchart
+mode: default
+content:
+  field_componente:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_nombre_eje_x:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_nombre_eje_y:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_todo_apilado:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  uuid: true

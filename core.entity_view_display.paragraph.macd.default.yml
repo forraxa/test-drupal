@@ -1,0 +1,61 @@
+uuid: 8a9a63f5-2dbc-4c54-8bb7-8177925f742f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.macd.field_aplicado
+    - field.field.paragraph.macd.field_condicion_macd
+    - field.field.paragraph.macd.field_fast_ema
+    - field.field.paragraph.macd.field_macd_sma
+    - field.field.paragraph.macd.field_slow_ema
+    - paragraphs.paragraphs_type.macd
+  module:
+    - options
+id: paragraph.macd.default
+targetEntityType: paragraph
+bundle: macd
+mode: default
+content:
+  field_aplicado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_condicion_macd:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fast_ema:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_macd_sma:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_slow_ema:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  uuid: true

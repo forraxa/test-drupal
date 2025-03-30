@@ -1,0 +1,40 @@
+uuid: 4194bb40-5820-4dae-b310-231a964158c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grafico_dashboard.field_descripcion
+    - field.field.paragraph.grafico_dashboard.field_espacio_en_linea
+    - field.field.paragraph.grafico_dashboard.field_graficos2
+    - paragraphs.paragraphs_type.grafico_dashboard
+id: paragraph.grafico_dashboard.default
+targetEntityType: paragraph
+bundle: grafico_dashboard
+mode: default
+content:
+  field_descripcion:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_espacio_en_linea:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_graficos2:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  uuid: true

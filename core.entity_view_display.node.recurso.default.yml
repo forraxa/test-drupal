@@ -1,0 +1,53 @@
+uuid: a1ff3abd-7a16-4189-a67d-e1f3ee65631e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.recurso.field_descripcion
+    - field.field.node.recurso.field_recurso
+    - field.field.node.recurso.field_visualizacion
+    - node.type.recurso
+  module:
+    - entity_reference_revisions
+    - user
+    - uuid_extra
+id: node.recurso.default
+targetEntityType: node
+bundle: recurso
+mode: default
+content:
+  field_descripcion:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_recurso:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_visualizacion:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  uuid:
+    type: uuid
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  links: true

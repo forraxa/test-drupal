@@ -1,0 +1,19 @@
+uuid: abef4941-1123-471f-a97e-bb8371b99fab
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_aplicacion
+    - node.type.aplicacion
+id: node.aplicacion.field_descripcion_aplicacion
+field_name: field_descripcion_aplicacion
+entity_type: node
+bundle: aplicacion
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

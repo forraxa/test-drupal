@@ -1,0 +1,33 @@
+uuid: f657130f-3d4c-416b-a397-625c5332232c
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.terminos_de_uso.body
+    - field.field.node.terminos_de_uso.field_cliente
+    - node.type.terminos_de_uso
+  module:
+    - text
+    - user
+id: node.terminos_de_uso.teaser
+targetEntityType: node
+bundle: terminos_de_uso
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cliente: true
+  langcode: true

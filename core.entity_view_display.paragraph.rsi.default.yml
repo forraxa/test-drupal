@@ -1,0 +1,51 @@
+uuid: 8551d6e4-1691-4e38-b569-cf1cd2c350ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.rsi.field_aplicado
+    - field.field.paragraph.rsi.field_condicion_rsi
+    - field.field.paragraph.rsi.field_nivel
+    - field.field.paragraph.rsi.field_periodo
+    - paragraphs.paragraphs_type.rsi
+  module:
+    - options
+id: paragraph.rsi.default
+targetEntityType: paragraph
+bundle: rsi
+mode: default
+content:
+  field_aplicado:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_condicion_rsi:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_nivel:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_periodo:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  uuid: true

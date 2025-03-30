@@ -1,0 +1,82 @@
+uuid: cb261b19-f110-4e32-8cf8-180a100b41c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mapa.field_capas_wms
+    - field.field.paragraph.mapa.field_columna_latitud
+    - field.field.paragraph.mapa.field_columna_longitud
+    - field.field.paragraph.mapa.field_leaflet
+    - field.field.paragraph.mapa.field_url_leaflet_tiles
+    - field.field.paragraph.mapa.field_url_wms
+    - field.field.paragraph.mapa.field_wms
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.default
+targetEntityType: paragraph
+bundle: mapa
+mode: default
+content:
+  field_capas_wms:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_columna_latitud:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_columna_longitud:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_leaflet:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_url_leaflet_tiles:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_url_wms:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_wms:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  uuid: true

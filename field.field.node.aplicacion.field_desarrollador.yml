@@ -1,0 +1,19 @@
+uuid: 68fec963-f484-45ee-bd62-0e4679f3b17c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_desarrollador
+    - node.type.aplicacion
+id: node.aplicacion.field_desarrollador
+field_name: field_desarrollador
+entity_type: node
+bundle: aplicacion
+label: Desarrollador
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

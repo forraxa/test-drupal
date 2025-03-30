@@ -1,0 +1,28 @@
+uuid: 461a8003-afe7-41b3-be31-890e66d4334e
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recurso.field_descripcion
+    - field.field.node.recurso.field_recurso
+    - field.field.node.recurso.field_visualizacion
+    - node.type.recurso
+  module:
+    - user
+id: node.recurso.teaser
+targetEntityType: node
+bundle: recurso
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcion: true
+  field_recurso: true
+  field_visualizacion: true
+  langcode: true
+  uuid: true
