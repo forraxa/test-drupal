@@ -1,0 +1,33 @@
+uuid: a95551c3-bf1c-4e01-8aec-ce49c570c0f1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_modulos
+field_name: field_modulos
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Temáticas
+      label: Temáticas
+    -
+      value: Dashboard
+      label: Dashboard
+    -
+      value: Estadísticas
+      label: Estadísticas
+    -
+      value: Destacados
+      label: Destacados
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

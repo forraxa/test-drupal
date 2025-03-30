@@ -1,0 +1,27 @@
+uuid: b3ebc38c-b02c-4d97-9629-514d5281fb91
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_nivel_de_acceso
+field_name: field_nivel_de_acceso
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Público
+      label: Público
+    -
+      value: Privado
+      label: Privado
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

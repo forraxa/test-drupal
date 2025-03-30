@@ -1,0 +1,31 @@
+uuid: 8d891b77-2e22-43ec-9daf-70b94aeaf095
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_mom
+field_name: field_condicion_mom
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: si
+      label: si
+    -
+      value: 'no'
+      label: 'no'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

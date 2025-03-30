@@ -1,0 +1,49 @@
+uuid: 7b02a4c8-bd19-424f-90cd-1a8995c9ad8c
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_macd
+field_name: field_condicion_macd
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: linea_macd_mayor_linea_señal
+      label: 'linea macd mayor que linea señal'
+    -
+      value: linea_macd_menor_linea_señal
+      label: 'linea macd menor que linea señal'
+    -
+      value: linea_macd_cruza_arriba_linea_señal
+      label: 'linea macd cruza hacia arriba linea señal'
+    -
+      value: linea_macd_cruza_abajo_linea_señal
+      label: 'linea macd cruza hacia abajo linea señal'
+    -
+      value: macd_mayor_nivel
+      label: 'macd mayor que nivel'
+    -
+      value: macd_menor_nivel
+      label: 'macd menor que nivel'
+    -
+      value: macd_cruza_ascendiendo_nivel
+      label: 'macd cruza ascendiendo nivel'
+    -
+      value: macd_cruza_descendiendo_nivel
+      label: 'macd cruza descendiendo nivel'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

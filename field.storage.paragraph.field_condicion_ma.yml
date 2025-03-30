@@ -1,0 +1,49 @@
+uuid: 7635ce99-afe5-4ca9-bcd6-fced8a3a0a0d
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_ma
+field_name: field_condicion_ma
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ma_ascendente
+      label: 'ma ascendente'
+    -
+      value: ma_descendente
+      label: 'ma descendente'
+    -
+      value: precio_sobre_ma
+      label: 'precio sobre ma'
+    -
+      value: precio_debajo_ma
+      label: 'precio bajo ma'
+    -
+      value: precio_sobre_ma_despues_abrir_debajo
+      label: 'precio cruza ma ascendentemente'
+    -
+      value: precio_debajo_ma_despues_abrir_encima
+      label: 'precio cruza ma descendentemente'
+    -
+      value: ma_cambio_a_ascendente
+      label: 'ma cambia a ascendente'
+    -
+      value: ma_cambio_a_descendente
+      label: 'ma cambia a descendente'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

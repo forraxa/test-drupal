@@ -1,0 +1,18 @@
+uuid: 9ca37350-8000-4c35-b3a4-53e14e4ac92d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ultima_actualizacion
+field_name: field_ultima_actualizacion
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

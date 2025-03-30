@@ -1,0 +1,49 @@
+uuid: ca3cf4a3-5fba-4526-afe7-5b8f2013d19c
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_wma
+field_name: field_condicion_wma
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: wma_ascendente
+      label: 'wma ascendente'
+    -
+      value: wma_descendente
+      label: 'wma descendente'
+    -
+      value: precio_sobre_wma
+      label: 'precio sobre wma'
+    -
+      value: precio_debajo_wma
+      label: 'precio bajo wma'
+    -
+      value: precio_sobre_wma_despues_abrir_debajo
+      label: 'precio cruza wma ascendentemente'
+    -
+      value: precio_debajo_wma_despues_abrir_encima
+      label: 'precio cruza wma descendentemente'
+    -
+      value: wma_cambio_a_ascendente
+      label: 'wma cambia a ascendente'
+    -
+      value: wma_cambio_a_descendente
+      label: 'wma cambia a descendente'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

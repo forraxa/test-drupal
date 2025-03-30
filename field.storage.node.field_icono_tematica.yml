@@ -1,0 +1,23 @@
+uuid: 1a310dba-14d3-4ac9-b75f-9f1b7e38361c
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_icono_tematica
+field_name: field_icono_tematica
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

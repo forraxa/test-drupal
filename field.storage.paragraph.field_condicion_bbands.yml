@@ -1,0 +1,43 @@
+uuid: abbf6539-950c-4452-a6ee-d7e3eb74ef28
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_bbands
+field_name: field_condicion_bbands
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Precio_abre_sobre-banda_superior
+      label: 'Precio abre sobre banda superior'
+    -
+      value: Precio_abre_debajo-banda_inferior
+      label: 'Precio abre debajo banda inferior'
+    -
+      value: Precio_cruza_hacia-abajo_banda_superior
+      label: 'Precio cruza hacia abajo banda superior'
+    -
+      value: Precio_cruza_hacia-arriba_banda_superior
+      label: 'Precio cruza hacia arriba banda superior'
+    -
+      value: Precio_cruza_hacia-abajo_banda_inferior
+      label: 'Precio cruza hacia abajo banda inferior'
+    -
+      value: Precio_cruza_hacia-arriba_banda_inferior
+      label: 'Precio cruza hacia arriba banda inferior'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,43 @@
+uuid: 23f39349-326b-4dd3-a43e-8991944dfd5a
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_timeframe
+field_name: field_timeframe
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 1m
+      label: 1m
+    -
+      value: 5m
+      label: 5m
+    -
+      value: 15m
+      label: 15m
+    -
+      value: 1h
+      label: 1h
+    -
+      value: 4h
+      label: 4h
+    -
+      value: 1d
+      label: 1d
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

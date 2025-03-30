@@ -1,0 +1,21 @@
+uuid: c3724f8d-9762-4663-93b8-d027ad0de09a
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_twitter
+field_name: field_twitter
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

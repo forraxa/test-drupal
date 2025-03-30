@@ -1,0 +1,19 @@
+uuid: 5a158e42-f5bc-45bf-ad75-a316c2861180
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_recursos
+field_name: field_recursos
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,49 @@
+uuid: 691ea02e-8c20-4045-baf8-0a91ba5019a4
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_adx
+field_name: field_condicion_adx
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: adx_ascendente
+      label: 'adx ascendente'
+    -
+      value: 'adx _descendente'
+      label: 'adx descendente'
+    -
+      value: adx_mayor_nivel
+      label: 'adx mayor que nivel'
+    -
+      value: adx_menor_nivel
+      label: 'adx menor que nivel'
+    -
+      value: adx_cruza_ascendiendo_nivel
+      label: 'adx cruza ascendiendo nivel'
+    -
+      value: adx_cruza_descendiendo_nivel
+      label: 'adx cruza descendiendo nivel'
+    -
+      value: adx_cambio_a_ascendente
+      label: 'adx cambia a ascendente'
+    -
+      value: adx_cambio_a_descendente
+      label: 'adx cambia a descendente'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

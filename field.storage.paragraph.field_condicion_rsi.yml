@@ -1,0 +1,49 @@
+uuid: 86d77fcc-d1bf-4f85-a6d8-2b63b83ab87e
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_rsi
+field_name: field_condicion_rsi
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: rsi_ascendente
+      label: 'rsi ascendente'
+    -
+      value: rsi_descendente
+      label: 'rsi descendente'
+    -
+      value: rsi_mayor_nivel
+      label: 'rsi mayor que nivel'
+    -
+      value: rsi_menor_nivel
+      label: 'rsi menor que nivel'
+    -
+      value: rsi_cruza_ascendiendo_nivel
+      label: 'rsi cruza ascendiendo nivel'
+    -
+      value: rsi_cruza_descendiendo_nivel
+      label: 'rsi cruza descendiendo nivel'
+    -
+      value: rsi_cambia_a_ascendente
+      label: 'rsi cambia a ascendente'
+    -
+      value: rsi_cambia_a_descendente
+      label: 'rsi cambia a descendente'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

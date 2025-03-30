@@ -1,0 +1,24 @@
+uuid: bff7965b-0059-47f1-b3da-0e0475651069
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_componente_y
+field_name: field_componente_y
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

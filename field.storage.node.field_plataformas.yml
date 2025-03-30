@@ -1,0 +1,39 @@
+uuid: 7dbbfcf4-6d33-4fca-8e4b-f7be17f51db9
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_plataformas
+field_name: field_plataformas
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ANDROID
+      label: ANDROID
+    -
+      value: IOS
+      label: IOS
+    -
+      value: WINDOWS
+      label: WINDOWS
+    -
+      value: LINUX
+      label: LINUX
+    -
+      value: MACOS
+      label: MACOS
+    -
+      value: OTROS
+      label: OTROS
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

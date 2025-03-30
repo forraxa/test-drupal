@@ -1,0 +1,49 @@
+uuid: af30c2c7-63c3-4e20-a687-c258007d42b7
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_condicion_cci
+field_name: field_condicion_cci
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: cci_ascendente
+      label: 'cci ascendente'
+    -
+      value: cci_descendente
+      label: 'cci descendente'
+    -
+      value: cci_mayor_nivel
+      label: 'cci mayor que nivel'
+    -
+      value: cci_menor_nivel
+      label: 'cci menor que nivel'
+    -
+      value: cci_cruza_ascendiendo_nivel
+      label: 'cci cruza ascendiendo nivel'
+    -
+      value: cci_cruza_descendiendo_nivel
+      label: 'cci cruza descendiendo nivel'
+    -
+      value: cci_cambio_a_ascendente
+      label: 'cci cambia a ascendente'
+    -
+      value: cci_cambio_a_descendente
+      label: 'cci cambia a descendente'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

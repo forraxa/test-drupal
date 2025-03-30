@@ -1,0 +1,24 @@
+uuid: e0b2e373-dc4a-4d63-9eef-3d6994ab60b9
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_takeprofit
+field_name: field_takeprofit
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 1
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

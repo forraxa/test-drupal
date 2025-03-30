@@ -1,0 +1,18 @@
+uuid: 06e26470-190d-4637-9efe-6e6423b5df38
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_publicado
+field_name: field_publicado
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
