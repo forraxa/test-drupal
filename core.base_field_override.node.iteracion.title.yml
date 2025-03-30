@@ -1,0 +1,18 @@
+uuid: 8c248225-1f02-4b82-ae40-cca538de2691
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.iteracion
+id: node.iteracion.title
+field_name: title
+entity_type: node
+bundle: iteracion
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

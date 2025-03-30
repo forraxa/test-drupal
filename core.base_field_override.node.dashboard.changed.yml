@@ -1,0 +1,18 @@
+uuid: 617504a5-b288-423d-8d70-ae7f7d4c0fe7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.dashboard
+id: node.dashboard.changed
+field_name: changed
+entity_type: node
+bundle: dashboard
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

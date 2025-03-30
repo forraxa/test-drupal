@@ -1,0 +1,18 @@
+uuid: c1601a44-35ea-4671-bf81-e24a840cc5ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dataset
+id: node.dataset.title
+field_name: title
+entity_type: node
+bundle: dataset
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

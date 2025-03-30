@@ -1,0 +1,20 @@
+uuid: ba13de33-da09-4ce0-af7c-3fd929c50333
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.dashboard
+  module:
+    - path
+id: node.dashboard.path
+field_name: path
+entity_type: node
+bundle: dashboard
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

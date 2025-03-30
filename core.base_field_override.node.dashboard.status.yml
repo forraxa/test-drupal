@@ -1,0 +1,22 @@
+uuid: 3e2ecef5-588c-458d-af7a-2ff56d50dbae
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.dashboard
+id: node.dashboard.status
+field_name: status
+entity_type: node
+bundle: dashboard
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

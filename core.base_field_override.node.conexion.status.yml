@@ -1,0 +1,22 @@
+uuid: 38cd32d4-00e8-45df-8530-4dab3078d3ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.conexion
+id: node.conexion.status
+field_name: status
+entity_type: node
+bundle: conexion
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

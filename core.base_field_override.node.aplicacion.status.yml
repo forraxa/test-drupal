@@ -1,0 +1,22 @@
+uuid: 16664532-0f9f-4080-9c35-75a461f797cc
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.aplicacion
+id: node.aplicacion.status
+field_name: status
+entity_type: node
+bundle: aplicacion
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

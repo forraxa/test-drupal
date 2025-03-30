@@ -1,0 +1,20 @@
+uuid: c8190edc-7a01-44ce-9a6e-c53f6f66b8ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.aplicacion
+  module:
+    - path
+id: node.aplicacion.path
+field_name: path
+entity_type: node
+bundle: aplicacion
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

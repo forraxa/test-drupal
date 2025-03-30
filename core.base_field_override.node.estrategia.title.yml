@@ -1,0 +1,18 @@
+uuid: d7623277-cf67-42aa-98c2-55d854de24b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.estrategia
+id: node.estrategia.title
+field_name: title
+entity_type: node
+bundle: estrategia
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

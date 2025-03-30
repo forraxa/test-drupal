@@ -1,0 +1,20 @@
+uuid: a0559a48-a9e9-475b-a35c-5c03db209cee
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.idioma
+  module:
+    - path
+id: node.idioma.path
+field_name: path
+entity_type: node
+bundle: idioma
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

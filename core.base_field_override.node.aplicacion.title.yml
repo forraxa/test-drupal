@@ -1,0 +1,18 @@
+uuid: 84feb8da-4b98-4d48-837e-bda05c3add58
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.aplicacion
+id: node.aplicacion.title
+field_name: title
+entity_type: node
+bundle: aplicacion
+label: Nombre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

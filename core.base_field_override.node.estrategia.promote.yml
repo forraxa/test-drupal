@@ -1,0 +1,22 @@
+uuid: 00adac8e-54a8-4cf3-8ce8-7c6f70b0ee5a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.estrategia
+id: node.estrategia.promote
+field_name: promote
+entity_type: node
+bundle: estrategia
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 206f3166-badf-40ab-9732-0b9f5fd92416
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.idioma
+id: node.idioma.title
+field_name: title
+entity_type: node
+bundle: idioma
+label: Idioma
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

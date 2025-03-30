@@ -1,0 +1,22 @@
+uuid: 61fd5196-084b-4477-a3e7-be3c4485a338
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.iteracion
+id: node.iteracion.promote
+field_name: promote
+entity_type: node
+bundle: iteracion
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

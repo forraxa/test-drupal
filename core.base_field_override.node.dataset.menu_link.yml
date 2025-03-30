@@ -1,0 +1,20 @@
+uuid: c5d63d23-87b7-4e1a-8ad3-29df7498b01f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.dataset
+id: node.dataset.menu_link
+field_name: menu_link
+entity_type: node
+bundle: dataset
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference
