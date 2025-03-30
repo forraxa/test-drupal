@@ -1,0 +1,25 @@
+uuid: 3c39b12d-e33d-4850-940f-0efc42b8b9e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.rsi
+id: paragraph.rsi.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: rsi
+label: Periodo
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 14
+default_value_callback: ''
+settings:
+  min: 1
+  max: 1000
+  prefix: ''
+  suffix: ''
+field_type: integer

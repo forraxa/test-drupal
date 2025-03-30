@@ -1,0 +1,30 @@
+uuid: abff76ed-6e7c-4491-b3b6-dc87542724f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_cliente
+    - node.type.organizacion
+  module:
+    - user
+id: user.user.field_cliente
+field_name: field_cliente
+entity_type: user
+bundle: user
+label: Cliente
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      organizacion: organizacion
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

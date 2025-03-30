@@ -1,0 +1,21 @@
+uuid: 9470adf7-40ec-41ae-9480-f7bf1fd7b04a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_mom
+    - paragraphs.paragraphs_type.mom
+  module:
+    - options
+id: paragraph.mom.field_condicion_mom
+field_name: field_condicion_mom
+entity_type: paragraph
+bundle: mom
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: da6d05e8-e7eb-48a1-87c4-8613eca87d54
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_stoch
+    - paragraphs.paragraphs_type.stoch
+  module:
+    - options
+id: paragraph.stoch.field_condicion_stoch
+field_name: field_condicion_stoch
+entity_type: paragraph
+bundle: stoch
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: stoch_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

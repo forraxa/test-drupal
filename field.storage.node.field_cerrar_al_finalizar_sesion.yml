@@ -1,0 +1,22 @@
+uuid: ca791603-423b-42c0-bf1e-609a24d5d6dc
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_cerrar_al_finalizar_sesion
+field_name: field_cerrar_al_finalizar_sesion
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

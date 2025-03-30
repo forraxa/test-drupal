@@ -1,0 +1,31 @@
+uuid: 95aa20fa-77d8-4e1c-8491-22e4ecfe2900
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - options
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_compra_venta
+field_name: field_compra_venta
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Compra
+      label: Compra
+    -
+      value: Venta
+      label: Venta
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

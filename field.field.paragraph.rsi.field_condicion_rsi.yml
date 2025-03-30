@@ -1,0 +1,23 @@
+uuid: 55cc7ed7-74c2-43eb-9c67-0a309e88222a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_rsi
+    - paragraphs.paragraphs_type.rsi
+  module:
+    - options
+id: paragraph.rsi.field_condicion_rsi
+field_name: field_condicion_rsi
+entity_type: paragraph
+bundle: rsi
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: rsi_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 81232870-d9c0-4d2e-9214-60b5d8a9356c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fichero
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - file
+id: paragraph.servicio_rest_recurso.field_fichero
+field_name: field_fichero
+entity_type: paragraph
+bundle: servicio_rest_recurso
+label: Fichero
+description: 'El fichero se genera automaticamente con los datos del Endpoint'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'csv json geojson xslx xml'
+  max_filesize: ''
+  description_field: false
+field_type: file

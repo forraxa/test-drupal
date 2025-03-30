@@ -1,0 +1,25 @@
+uuid: 78090580-85ee-4599-a0bb-9b298aef3419
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.mom
+id: paragraph.mom.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: mom
+label: Periodo
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 14
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

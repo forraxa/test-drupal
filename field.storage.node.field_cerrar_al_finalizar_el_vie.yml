@@ -1,0 +1,22 @@
+uuid: db98ef35-acdd-4dee-baee-323086f7e0ea
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_cerrar_al_finalizar_el_vie
+field_name: field_cerrar_al_finalizar_el_vie
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

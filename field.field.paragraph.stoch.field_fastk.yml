@@ -1,0 +1,25 @@
+uuid: 5f6e530b-11fc-4265-ab9e-f89189595be5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fastk
+    - paragraphs.paragraphs_type.stoch
+id: paragraph.stoch.field_fastk
+field_name: field_fastk
+entity_type: paragraph
+bundle: stoch
+label: FastK
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

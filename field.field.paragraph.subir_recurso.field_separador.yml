@@ -1,0 +1,21 @@
+uuid: 203c042f-2a41-4070-a118-83db1d52f064
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_separador
+    - paragraphs.paragraphs_type.subir_recurso
+  module:
+    - options
+id: paragraph.subir_recurso.field_separador
+field_name: field_separador
+entity_type: paragraph
+bundle: subir_recurso
+label: Separador
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

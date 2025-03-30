@@ -1,0 +1,21 @@
+uuid: 9f9b4e34-4144-4b2c-bc9f-1b7ca9dee6b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_separador
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - options
+id: paragraph.servicio_rest_recurso.field_separador
+field_name: field_separador
+entity_type: paragraph
+bundle: servicio_rest_recurso
+label: 'Separador CSV'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

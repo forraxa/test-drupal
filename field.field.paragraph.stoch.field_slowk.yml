@@ -1,0 +1,25 @@
+uuid: c973252b-800a-44ec-8921-15cd3bf33470
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slowk
+    - paragraphs.paragraphs_type.stoch
+id: paragraph.stoch.field_slowk
+field_name: field_slowk
+entity_type: paragraph
+bundle: stoch
+label: SlowK
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

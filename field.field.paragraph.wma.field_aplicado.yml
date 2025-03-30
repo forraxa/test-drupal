@@ -1,0 +1,23 @@
+uuid: c5ddbb43-d196-493b-9541-a4d61338847e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.wma
+  module:
+    - options
+id: paragraph.wma.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: wma
+label: Aplicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

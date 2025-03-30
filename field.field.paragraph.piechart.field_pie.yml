@@ -1,0 +1,64 @@
+uuid: 90e20ddd-eb72-4699-9f8a-6b2968534ba6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pie
+    - paragraphs.paragraphs_type.componente_piechart
+    - paragraphs.paragraphs_type.piechart
+  module:
+    - entity_reference_revisions
+id: paragraph.piechart.field_pie
+field_name: field_pie
+entity_type: paragraph
+bundle: piechart
+label: Pie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      componente_piechart: componente_piechart
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: 14
+        enabled: false
+      barchart:
+        weight: 15
+        enabled: false
+      componente:
+        weight: 16
+        enabled: false
+      componente_piechart:
+        weight: 13
+        enabled: true
+      elasticsearch_recurso:
+        weight: 17
+        enabled: false
+      iconos_footer:
+        weight: 18
+        enabled: false
+      linechart:
+        weight: 19
+        enabled: false
+      mapa:
+        weight: 20
+        enabled: false
+      piechart:
+        weight: 21
+        enabled: false
+      postgres_recurso:
+        weight: 22
+        enabled: false
+      subir_recurso:
+        weight: 23
+        enabled: false
+      tabla:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

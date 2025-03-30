@@ -1,0 +1,21 @@
+uuid: 0368cf1b-37e4-4b3a-8098-4702137cb33b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_separador
+    - paragraphs.paragraphs_type.postgres_recurso
+  module:
+    - options
+id: paragraph.postgres_recurso.field_separador
+field_name: field_separador
+entity_type: paragraph
+bundle: postgres_recurso
+label: 'Separador CSV'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

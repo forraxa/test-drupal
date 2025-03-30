@@ -1,0 +1,23 @@
+uuid: 34899629-a1f2-4a5d-b755-9e38303f79b9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_wma
+    - paragraphs.paragraphs_type.wma
+  module:
+    - options
+id: paragraph.wma.field_condicion_wma
+field_name: field_condicion_wma
+entity_type: paragraph
+bundle: wma
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: wma_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

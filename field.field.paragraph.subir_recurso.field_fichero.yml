@@ -1,0 +1,27 @@
+uuid: 1765b0f1-0ac4-4ad4-bb91-f7b438901d46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fichero
+    - paragraphs.paragraphs_type.subir_recurso
+  module:
+    - file
+id: paragraph.subir_recurso.field_fichero
+field_name: field_fichero
+entity_type: paragraph
+bundle: subir_recurso
+label: Fichero
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'csv xslx json xml pdf geojson'
+  max_filesize: '50 MB'
+  description_field: false
+field_type: file

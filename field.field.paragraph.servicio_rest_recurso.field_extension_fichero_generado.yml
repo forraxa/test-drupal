@@ -1,0 +1,21 @@
+uuid: f3ee00e2-9f21-4e6b-ae93-1a3f321acaa9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_extension_fichero_generado
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - options
+id: paragraph.servicio_rest_recurso.field_extension_fichero_generado
+field_name: field_extension_fichero_generado
+entity_type: paragraph
+bundle: servicio_rest_recurso
+label: 'Extensión fichero generado'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

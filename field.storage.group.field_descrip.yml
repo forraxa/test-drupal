@@ -1,0 +1,20 @@
+uuid: 3974e753-098a-431f-815f-4e1b7078b6e3
+langcode: es
+status: true
+dependencies:
+  module:
+    - group
+    - text
+id: group.field_descrip
+field_name: field_descrip
+entity_type: group
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

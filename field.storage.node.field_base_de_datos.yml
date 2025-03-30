@@ -1,0 +1,21 @@
+uuid: 7224bbc4-2a8d-465e-a65a-c8789acbddf1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_base_de_datos
+field_name: field_base_de_datos
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

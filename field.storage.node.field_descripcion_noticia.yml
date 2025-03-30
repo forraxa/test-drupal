@@ -1,0 +1,23 @@
+uuid: 0c4ffc86-8892-4481-87d8-dc0bc14229f3
+langcode: es
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_descripcion_noticia
+field_name: field_descripcion_noticia
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

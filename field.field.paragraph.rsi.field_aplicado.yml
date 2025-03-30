@@ -1,0 +1,23 @@
+uuid: 6c72412e-c363-433d-b26b-db5374739f96
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.rsi
+  module:
+    - options
+id: paragraph.rsi.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: rsi
+label: Aplicado
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

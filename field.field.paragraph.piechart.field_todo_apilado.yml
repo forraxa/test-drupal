@@ -1,0 +1,23 @@
+uuid: 8ad573b3-65ce-4194-ab42-4f663bec44fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_todo_apilado
+    - paragraphs.paragraphs_type.piechart
+id: paragraph.piechart.field_todo_apilado
+field_name: field_todo_apilado
+entity_type: paragraph
+bundle: piechart
+label: 'PieCharts apilados'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

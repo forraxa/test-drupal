@@ -1,0 +1,25 @@
+uuid: 2c2d0fca-e1d6-4427-be7b-dcd2fd6d4129
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.mom
+id: paragraph.mom.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: mom
+label: Nivel
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

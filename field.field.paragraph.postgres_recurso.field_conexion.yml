@@ -1,0 +1,29 @@
+uuid: a60505ce-8ae3-45a5-b767-9ce616a39d08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_conexion
+    - node.type.conexion
+    - paragraphs.paragraphs_type.postgres_recurso
+id: paragraph.postgres_recurso.field_conexion
+field_name: field_conexion
+entity_type: paragraph
+bundle: postgres_recurso
+label: 'Conexión origen de datos'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      conexion: conexion
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

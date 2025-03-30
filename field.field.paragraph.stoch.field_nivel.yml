@@ -1,0 +1,25 @@
+uuid: f801c431-b31a-4de7-8df3-54799704fa74
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.stoch
+id: paragraph.stoch.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: stoch
+label: Nivel
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

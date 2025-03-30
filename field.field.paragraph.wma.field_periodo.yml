@@ -1,0 +1,25 @@
+uuid: ff53e001-4de2-465c-be55-95e3882b0705
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.wma
+id: paragraph.wma.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: wma
+label: Periodo
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 14
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
