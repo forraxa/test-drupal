@@ -1,0 +1,19 @@
+uuid: a2656c66-0617-4052-83e9-992aad865de9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.estrategia
+id: node.estrategia.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: estrategia
+label: Descripción
+description: 'Descripción de la estrategia'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

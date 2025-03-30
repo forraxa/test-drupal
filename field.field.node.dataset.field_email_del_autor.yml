@@ -1,0 +1,19 @@
+uuid: 80d68b5a-3c73-43e0-9efa-679a25aa5a0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_del_autor
+    - node.type.dataset
+id: node.dataset.field_email_del_autor
+field_name: field_email_del_autor
+entity_type: node
+bundle: dataset
+label: 'Email del Autor'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

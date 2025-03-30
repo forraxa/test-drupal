@@ -1,0 +1,19 @@
+uuid: fb255f2d-530c-4d12-89da-d0ff94ebfe7c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.recurso
+id: node.recurso.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: recurso
+label: Descripción
+description: 'Descripción del conjunto de datos'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

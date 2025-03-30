@@ -1,0 +1,71 @@
+uuid: ec11eda9-b3c4-467f-b827-3e000904f7b3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visualizacion
+    - node.type.recurso
+    - paragraphs.paragraphs_type.areachart
+    - paragraphs.paragraphs_type.barchart
+    - paragraphs.paragraphs_type.linechart
+    - paragraphs.paragraphs_type.mapa
+    - paragraphs.paragraphs_type.piechart
+    - paragraphs.paragraphs_type.tabla
+  module:
+    - entity_reference_revisions
+id: node.recurso.field_visualizacion
+field_name: field_visualizacion
+entity_type: node
+bundle: recurso
+label: Visualización
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      tabla: tabla
+      mapa: mapa
+      linechart: linechart
+      barchart: barchart
+      piechart: piechart
+      areachart: areachart
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: -13
+        enabled: true
+      barchart:
+        weight: -15
+        enabled: true
+      componente:
+        weight: -23
+        enabled: false
+      elasticsearch_recurso:
+        weight: -22
+        enabled: false
+      iconos_footer:
+        weight: -21
+        enabled: false
+      linechart:
+        weight: -16
+        enabled: true
+      mapa:
+        weight: -17
+        enabled: true
+      piechart:
+        weight: -14
+        enabled: true
+      postgres_recurso:
+        weight: -20
+        enabled: false
+      subir_recurso:
+        weight: -19
+        enabled: false
+      tabla:
+        weight: -18
+        enabled: true
+field_type: entity_reference_revisions

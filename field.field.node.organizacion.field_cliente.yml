@@ -1,0 +1,29 @@
+uuid: a17a1028-e0b9-4d4f-be0a-5ae1eae7046e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cliente
+    - node.type.organizacion
+    - taxonomy.vocabulary.cliente
+id: node.organizacion.field_cliente
+field_name: field_cliente
+entity_type: node
+bundle: organizacion
+label: Cliente
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cliente: cliente
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

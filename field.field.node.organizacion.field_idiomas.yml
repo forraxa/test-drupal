@@ -1,0 +1,29 @@
+uuid: 95ec9128-e54a-4d1d-8af3-28a552823fa3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idiomas
+    - node.type.idioma
+    - node.type.organizacion
+id: node.organizacion.field_idiomas
+field_name: field_idiomas
+entity_type: node
+bundle: organizacion
+label: Idiomas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      idioma: idioma
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

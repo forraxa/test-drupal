@@ -1,0 +1,24 @@
+uuid: 0225d968-5c49-4cb1-bf1d-a53d3675f15d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_fin
+    - node.type.estrategia
+  module:
+    - datetime
+id: node.estrategia.field_fecha_fin
+field_name: field_fecha_fin
+entity_type: node
+bundle: estrategia
+label: 'Fecha Fin'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

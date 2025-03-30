@@ -1,0 +1,21 @@
+uuid: 5241ca4e-158a-486e-bcc1-58654140ac95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ultima_actualizacion
+    - node.type.dataset
+id: node.dataset.field_ultima_actualizacion
+field_name: field_ultima_actualizacion
+entity_type: node
+bundle: dataset
+label: 'Última actualización'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1657696127
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

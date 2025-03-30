@@ -1,0 +1,21 @@
+uuid: 2a3735bf-1a8b-4b8d-b1d1-eb1a0c3a6112
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_modulos
+    - node.type.organizacion
+  module:
+    - options
+id: node.organizacion.field_modulos
+field_name: field_modulos
+entity_type: node
+bundle: organizacion
+label: Módulos
+description: 'Activación de módulos en página principal'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

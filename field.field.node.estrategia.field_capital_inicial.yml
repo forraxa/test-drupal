@@ -1,0 +1,25 @@
+uuid: 9d55a12f-f94b-4c6f-9c18-148aa7d8a5eb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_capital_inicial
+    - node.type.estrategia
+id: node.estrategia.field_capital_inicial
+field_name: field_capital_inicial
+entity_type: node
+bundle: estrategia
+label: 'Capital inicial'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 10000
+default_value_callback: ''
+settings:
+  min: 1000
+  max: 10000
+  prefix: ''
+  suffix: ''
+field_type: integer

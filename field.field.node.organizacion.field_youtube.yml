@@ -1,0 +1,19 @@
+uuid: b9d25d18-017b-4679-98e0-8ebaf9c331c9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube
+    - node.type.organizacion
+id: node.organizacion.field_youtube
+field_name: field_youtube
+entity_type: node
+bundle: organizacion
+label: Youtube
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

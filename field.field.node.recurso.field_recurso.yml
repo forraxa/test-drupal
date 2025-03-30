@@ -1,0 +1,73 @@
+uuid: 63aac00a-5eff-44a6-9da7-17e5c5b9bc6e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recurso
+    - node.type.recurso
+    - paragraphs.paragraphs_type.elasticsearch_recurso
+    - paragraphs.paragraphs_type.postgres_recurso
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+    - paragraphs.paragraphs_type.subir_recurso
+  module:
+    - entity_reference_revisions
+id: node.recurso.field_recurso
+field_name: field_recurso
+entity_type: node
+bundle: recurso
+label: 'Origen de datos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      elasticsearch_recurso: elasticsearch_recurso
+      postgres_recurso: postgres_recurso
+      servicio_rest_recurso: servicio_rest_recurso
+      subir_recurso: subir_recurso
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: -22
+        enabled: false
+      barchart:
+        weight: -21
+        enabled: false
+      componente:
+        weight: -20
+        enabled: false
+      componente_piechart:
+        weight: -19
+        enabled: false
+      elasticsearch_recurso:
+        weight: -27
+        enabled: true
+      iconos_footer:
+        weight: -26
+        enabled: false
+      linechart:
+        weight: -18
+        enabled: false
+      mapa:
+        weight: -17
+        enabled: false
+      piechart:
+        weight: -16
+        enabled: false
+      postgres_recurso:
+        weight: -25
+        enabled: true
+      servicio_rest_recurso:
+        weight: -24
+        enabled: true
+      subir_recurso:
+        weight: -23
+        enabled: true
+      tabla:
+        weight: -15
+        enabled: false
+field_type: entity_reference_revisions

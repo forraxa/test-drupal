@@ -1,0 +1,23 @@
+uuid: af802df8-674c-4f69-b2f9-7f753e3408b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licencia
+    - node.type.dataset
+  module:
+    - options
+id: node.dataset.field_licencia
+field_name: field_licencia
+entity_type: node
+bundle: dataset
+label: Licencia
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 'Creative Commons'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

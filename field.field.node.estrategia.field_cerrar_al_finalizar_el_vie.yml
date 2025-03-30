@@ -1,0 +1,23 @@
+uuid: 9adb4d3e-5471-4bd3-9ffb-90bdea548591
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cerrar_al_finalizar_el_vie
+    - node.type.estrategia
+id: node.estrategia.field_cerrar_al_finalizar_el_vie
+field_name: field_cerrar_al_finalizar_el_vie
+entity_type: node
+bundle: estrategia
+label: 'Cerrar operaciones al finalizar el viernes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

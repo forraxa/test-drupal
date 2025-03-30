@@ -1,0 +1,24 @@
+uuid: 7a034d91-2501-4f53-af5f-aa036a060019
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_embed
+    - node.type.noticia
+  module:
+    - text
+id: node.noticia.field_embed
+field_name: field_embed
+entity_type: node
+bundle: noticia
+label: embed2
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ' <iframe src="http://192.168.1.49:8889/candlestick?text_value=a4bcc5d9-d901-4ede-81e1-91beebd982a5] " width="600" height="450"></iframe>'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

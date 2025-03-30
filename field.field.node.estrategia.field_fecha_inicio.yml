@@ -1,0 +1,24 @@
+uuid: 4463001b-5d7c-4078-83f4-294b6e89bf63
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_inicio
+    - node.type.estrategia
+  module:
+    - datetime
+id: node.estrategia.field_fecha_inicio
+field_name: field_fecha_inicio
+entity_type: node
+bundle: estrategia
+label: 'Fecha Inicio'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '-6 month'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

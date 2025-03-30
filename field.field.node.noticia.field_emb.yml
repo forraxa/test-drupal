@@ -1,0 +1,24 @@
+uuid: 968a850b-a9a9-430f-a452-2996bc5d9ed6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_emb
+    - node.type.noticia
+  module:
+    - text
+id: node.noticia.field_emb
+field_name: field_emb
+entity_type: node
+bundle: noticia
+label: embed
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'http://192.168.1.49:8889/candlestick?text_value=[node:uuid]'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

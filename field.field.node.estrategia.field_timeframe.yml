@@ -1,0 +1,23 @@
+uuid: 754fff7d-7e19-4c3e-93a2-70668d00a9bd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_timeframe
+    - node.type.estrategia
+  module:
+    - options
+id: node.estrategia.field_timeframe
+field_name: field_timeframe
+entity_type: node
+bundle: estrategia
+label: TimeFrame
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1h
+default_value_callback: ''
+settings: {  }
+field_type: list_string

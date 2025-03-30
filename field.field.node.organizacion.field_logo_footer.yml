@@ -1,0 +1,43 @@
+uuid: 3d4a6ae6-6f21-4106-89ac-0e27cfe0177c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo_footer
+    - node.type.organizacion
+    - paragraphs.paragraphs_type.iconos_footer
+  module:
+    - entity_reference_revisions
+id: node.organizacion.field_logo_footer
+field_name: field_logo_footer
+entity_type: node
+bundle: organizacion
+label: 'Iconos footer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      iconos_footer: iconos_footer
+    negate: 0
+    target_bundles_drag_drop:
+      elasticsearch_recurso:
+        weight: 6
+        enabled: false
+      iconos_footer:
+        weight: 7
+        enabled: true
+      postgres_recurso:
+        weight: 8
+        enabled: false
+      recurso:
+        weight: 9
+        enabled: false
+      subir_recurso:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

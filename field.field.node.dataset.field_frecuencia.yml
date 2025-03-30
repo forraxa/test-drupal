@@ -1,0 +1,23 @@
+uuid: 5dd58080-8032-4568-8ae2-87e9aebafbf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_frecuencia
+    - node.type.dataset
+  module:
+    - options
+id: node.dataset.field_frecuencia
+field_name: field_frecuencia
+entity_type: node
+bundle: dataset
+label: Frecuencia
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: minuto/s
+default_value_callback: ''
+settings: {  }
+field_type: list_string

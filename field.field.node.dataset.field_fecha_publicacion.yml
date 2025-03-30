@@ -1,0 +1,21 @@
+uuid: 3511aa6f-b2e4-4697-bb4e-3d1ad715eb8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_publicacion
+    - node.type.dataset
+id: node.dataset.field_fecha_publicacion
+field_name: field_fecha_publicacion
+entity_type: node
+bundle: dataset
+label: 'Fecha publicación'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1657696090
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

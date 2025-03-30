@@ -1,0 +1,23 @@
+uuid: e9581965-41b7-40b3-b8be-cd68fcb58f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nivel_de_acceso
+    - node.type.dataset
+  module:
+    - options
+id: node.dataset.field_nivel_de_acceso
+field_name: field_nivel_de_acceso
+entity_type: node
+bundle: dataset
+label: 'Nivel de acceso'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: Público
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,25 @@
+uuid: b5ce19e7-d9c7-4de1-8d70-8a24909c0182
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_riesgo_por_operacion
+    - node.type.estrategia
+id: node.estrategia.field_riesgo_por_operacion
+field_name: field_riesgo_por_operacion
+entity_type: node
+bundle: estrategia
+label: 'Riesgo por operación'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 1
+default_value_callback: ''
+settings:
+  min: 0.1
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: decimal

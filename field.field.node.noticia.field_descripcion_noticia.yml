@@ -1,0 +1,23 @@
+uuid: 438969b3-89ab-480e-97b1-624d9a316775
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_noticia
+    - node.type.noticia
+  module:
+    - text
+id: node.noticia.field_descripcion_noticia
+field_name: field_descripcion_noticia
+entity_type: node
+bundle: noticia
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,23 @@
+uuid: 63d67ec0-2276-4ea9-973f-89da4008892d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_compra_venta
+    - node.type.estrategia
+  module:
+    - options
+id: node.estrategia.field_compra_venta
+field_name: field_compra_venta
+entity_type: node
+bundle: estrategia
+label: 'Compra Venta'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Compra
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: c4ac3081-ede6-4db0-92e2-5f01a8392e1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cerrar_al_finalizar_sesion
+    - node.type.estrategia
+id: node.estrategia.field_cerrar_al_finalizar_sesion
+field_name: field_cerrar_al_finalizar_sesion
+entity_type: node
+bundle: estrategia
+label: 'Cerrar operaciones al finalizar sesión'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

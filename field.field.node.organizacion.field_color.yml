@@ -1,0 +1,22 @@
+uuid: 502aa743-e137-40bf-a203-7e7a54c6c661
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_color
+    - node.type.organizacion
+  module:
+    - color_field
+id: node.organizacion.field_color
+field_name: field_color
+entity_type: node
+bundle: organizacion
+label: Color
+description: 'Color base del aspecto visual del tema'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

@@ -1,0 +1,27 @@
+uuid: be2ca320-c60b-409a-82e2-8d3267d9d98f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fichero
+    - node.type.idioma
+  module:
+    - file
+id: node.idioma.field_fichero
+field_name: field_fichero
+entity_type: node
+bundle: idioma
+label: Fichero
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: json
+  max_filesize: ''
+  description_field: false
+field_type: file

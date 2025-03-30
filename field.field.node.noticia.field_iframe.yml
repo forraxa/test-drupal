@@ -1,0 +1,31 @@
+uuid: ff6c1e4b-f08c-4061-8cbf-638a587af158
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_iframe
+    - node.type.noticia
+  module:
+    - iframe
+id: node.noticia.field_iframe
+field_name: field_iframe
+entity_type: node
+bundle: noticia
+label: iframe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: null
+  headerlevel: '3'
+  class: ''
+  frameborder: '0'
+  scrolling: null
+  transparency: null
+  allowfullscreen: '0'
+  tokensupport: null
+  width: null
+  height: null
+field_type: iframe

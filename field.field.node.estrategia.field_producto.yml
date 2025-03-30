@@ -1,0 +1,23 @@
+uuid: 2d63bde6-c5ed-4b06-8b78-cc819c45beb5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_producto
+    - node.type.estrategia
+  module:
+    - options
+id: node.estrategia.field_producto
+field_name: field_producto
+entity_type: node
+bundle: estrategia
+label: Producto
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: BTC
+default_value_callback: ''
+settings: {  }
+field_type: list_string

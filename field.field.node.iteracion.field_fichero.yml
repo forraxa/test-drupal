@@ -1,0 +1,27 @@
+uuid: 8bbd8e33-b39a-4336-8d19-8cdfa47deed3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fichero
+    - node.type.iteracion
+  module:
+    - file
+id: node.iteracion.field_fichero
+field_name: field_fichero
+entity_type: node
+bundle: iteracion
+label: Fichero
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'csv json'
+  max_filesize: ''
+  description_field: false
+field_type: file

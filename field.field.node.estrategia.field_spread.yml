@@ -1,0 +1,25 @@
+uuid: b54266b2-bd25-4daa-94c4-9d1f690ee4ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spread
+    - node.type.estrategia
+id: node.estrategia.field_spread
+field_name: field_spread
+entity_type: node
+bundle: estrategia
+label: Spread
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 1
+default_value_callback: ''
+settings:
+  min: 0.1
+  max: null
+  prefix: ''
+  suffix: Pips
+field_type: decimal

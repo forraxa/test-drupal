@@ -1,0 +1,25 @@
+uuid: 5b39939c-20be-40ba-a1e4-d09957fd2d3c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_takeprofit
+    - node.type.estrategia
+id: node.estrategia.field_takeprofit
+field_name: field_takeprofit
+entity_type: node
+bundle: estrategia
+label: TakeProfit
+description: '0 para no Takeprofit'
+required: true
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: Pips
+field_type: decimal

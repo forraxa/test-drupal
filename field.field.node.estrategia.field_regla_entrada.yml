@@ -1,0 +1,139 @@
+uuid: 6cb195ce-a3ad-4c48-840e-959b6b4e0a24
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_regla_entrada
+    - node.type.estrategia
+    - paragraphs.paragraphs_type.adx
+    - paragraphs.paragraphs_type.atr
+    - paragraphs.paragraphs_type.bbands
+    - paragraphs.paragraphs_type.cci
+    - paragraphs.paragraphs_type.dias_semana
+    - paragraphs.paragraphs_type.ema
+    - paragraphs.paragraphs_type.horas
+    - paragraphs.paragraphs_type.macd
+    - paragraphs.paragraphs_type.maverage
+    - paragraphs.paragraphs_type.mom
+    - paragraphs.paragraphs_type.rsi
+    - paragraphs.paragraphs_type.stoch
+    - paragraphs.paragraphs_type.wma
+  module:
+    - entity_reference_revisions
+id: node.estrategia.field_regla_entrada
+field_name: field_regla_entrada
+entity_type: node
+bundle: estrategia
+label: 'Regla entrada'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      bbands: bbands
+      rsi: rsi
+      macd: macd
+      maverage: maverage
+      ema: ema
+      wma: wma
+      stoch: stoch
+      adx: adx
+      atr: atr
+      cci: cci
+      mom: mom
+      dias_semana: dias_semana
+      horas: horas
+    negate: 0
+    target_bundles_drag_drop:
+      adx:
+        weight: -51
+        enabled: true
+      areachart:
+        weight: -45
+        enabled: false
+      atr:
+        weight: -50
+        enabled: true
+      barchart:
+        weight: -44
+        enabled: false
+      bbands:
+        weight: -59
+        enabled: true
+      cci:
+        weight: -49
+        enabled: true
+      componente:
+        weight: -43
+        enabled: false
+      componente_piechart:
+        weight: -42
+        enabled: false
+      dias_semana:
+        weight: -47
+        enabled: true
+      elasticsearch_recurso:
+        weight: -41
+        enabled: false
+      ema:
+        weight: -54
+        enabled: true
+      grafico_dashboard:
+        weight: -40
+        enabled: false
+      horas:
+        weight: -46
+        enabled: true
+      iconos_footer:
+        weight: -39
+        enabled: false
+      linea_dashboard:
+        weight: -38
+        enabled: false
+      linechart:
+        weight: -37
+        enabled: false
+      ma:
+        weight: -55
+        enabled: false
+      macd:
+        weight: -57
+        enabled: true
+      mapa:
+        weight: -36
+        enabled: false
+      maverage:
+        weight: -56
+        enabled: true
+      mom:
+        weight: -48
+        enabled: true
+      piechart:
+        weight: -35
+        enabled: false
+      postgres_recurso:
+        weight: -34
+        enabled: false
+      rsi:
+        weight: -58
+        enabled: true
+      servicio_rest_recurso:
+        weight: -33
+        enabled: false
+      stoch:
+        weight: -52
+        enabled: true
+      subir_recurso:
+        weight: -32
+        enabled: false
+      tabla:
+        weight: -31
+        enabled: false
+      wma:
+        weight: -53
+        enabled: true
+field_type: entity_reference_revisions

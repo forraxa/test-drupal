@@ -1,0 +1,19 @@
+uuid: c3eec1a2-2462-4d91-bac4-d79f84985458
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_copyright
+    - node.type.organizacion
+id: node.organizacion.field_copyright
+field_name: field_copyright
+entity_type: node
+bundle: organizacion
+label: Copyright
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

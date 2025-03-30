@@ -1,0 +1,25 @@
+uuid: e4dc422e-b301-4321-8228-aeca3d2f1cee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_numero_velas_entre_operaci
+    - node.type.estrategia
+id: node.estrategia.field_numero_velas_entre_operaci
+field_name: field_numero_velas_entre_operaci
+entity_type: node
+bundle: estrategia
+label: 'Número velas entre operaciones'
+description: '0 desactiva esta opción'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

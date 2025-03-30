@@ -1,0 +1,24 @@
+uuid: 59258291-8a31-4a3b-ab5d-84f8c368c753
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grafico_candlestick
+    - node.type.estrategia
+  module:
+    - text
+id: node.estrategia.field_grafico_candlestick
+field_name: field_grafico_candlestick
+entity_type: node
+bundle: estrategia
+label: 'Gráfico Candlestick'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<iframe height="2000" src="http://192.168.1.49:8889/candlestick?text_value=[node:uuid]" width="100%"></iframe>'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text

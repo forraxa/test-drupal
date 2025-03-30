@@ -1,0 +1,23 @@
+uuid: e8c91cea-6dbc-4e19-aa0b-45180f0b7be8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publicado
+    - node.type.dataset
+id: node.dataset.field_publicado
+field_name: field_publicado
+entity_type: node
+bundle: dataset
+label: Publicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Sí
+  off_label: 'No'
+field_type: boolean

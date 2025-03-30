@@ -1,0 +1,29 @@
+uuid: beb84955-98a4-4462-a121-a796540a2361
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recursos
+    - node.type.dataset
+    - node.type.recurso
+id: node.dataset.field_recursos
+field_name: field_recursos
+entity_type: node
+bundle: dataset
+label: Recursos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      recurso: recurso
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: f48a36d6-eec2-4469-b22f-7acd5615ac10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tiempo
+    - node.type.dataset
+id: node.dataset.field_tiempo
+field_name: field_tiempo
+entity_type: node
+bundle: dataset
+label: Tiempo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

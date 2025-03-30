@@ -1,0 +1,19 @@
+uuid: fda18c6f-3ca9-4190-a1b1-63c41b7567fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.organizacion
+id: node.organizacion.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: organizacion
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

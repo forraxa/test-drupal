@@ -1,0 +1,19 @@
+uuid: e352677e-f418-4ef4-9d88-d54bb54fe49e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twitter
+    - node.type.organizacion
+id: node.organizacion.field_twitter
+field_name: field_twitter
+entity_type: node
+bundle: organizacion
+label: Twitter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
