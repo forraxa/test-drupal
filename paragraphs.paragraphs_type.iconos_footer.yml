@@ -1,0 +1,10 @@
+uuid: c7e7b70c-d0cf-41cc-926e-1fd25addd480
+langcode: es
+status: true
+dependencies: {  }
+id: iconos_footer
+label: 'Iconos footer'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

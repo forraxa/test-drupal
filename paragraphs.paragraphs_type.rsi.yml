@@ -1,0 +1,10 @@
+uuid: 6b540b9a-aa0d-45ec-9f9e-428089219763
+langcode: es
+status: true
+dependencies: {  }
+id: rsi
+label: RSI
+icon_uuid: null
+icon_default: null
+description: 'Indicador RSI'
+behavior_plugins: {  }

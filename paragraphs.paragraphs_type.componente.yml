@@ -1,0 +1,10 @@
+uuid: 72f5c198-e46d-4d00-88f5-a38a2612c857
+langcode: es
+status: true
+dependencies: {  }
+id: componente
+label: 'Componente Barchart Linechart Areachart'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

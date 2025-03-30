@@ -1,0 +1,10 @@
+uuid: 447149a4-62d4-4a74-ab95-7bc4365507bf
+langcode: es
+status: true
+dependencies: {  }
+id: wma
+label: WMA
+icon_uuid: null
+icon_default: null
+description: 'Indicador WMA'
+behavior_plugins: {  }

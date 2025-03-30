@@ -1,0 +1,10 @@
+uuid: d6d0076e-ce9d-49ff-a488-2a065e196eeb
+langcode: es
+status: true
+dependencies: {  }
+id: grafico_dashboard
+label: 'Gráfico dashboard'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

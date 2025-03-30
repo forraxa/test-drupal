@@ -1,0 +1,10 @@
+uuid: a8eab92e-3a17-42f1-bffb-259bafed7df2
+langcode: es
+status: true
+dependencies: {  }
+id: linea_dashboard
+label: 'Linea Dashboard'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

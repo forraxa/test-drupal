@@ -1,0 +1,10 @@
+uuid: 8c704744-1e3e-49b2-9433-b8fc7aee2643
+langcode: es
+status: true
+dependencies: {  }
+id: horas
+label: Horas
+icon_uuid: null
+icon_default: null
+description: 'Horas del día'
+behavior_plugins: {  }

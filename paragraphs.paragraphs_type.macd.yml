@@ -1,0 +1,10 @@
+uuid: e815e142-0bf9-4619-ac35-0c7f91fcff93
+langcode: es
+status: true
+dependencies: {  }
+id: macd
+label: MACD
+icon_uuid: null
+icon_default: null
+description: 'Indicador MACD'
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: c9f6a1ba-7bb5-426c-9094-c09e4acb9126
+langcode: es
+status: true
+dependencies: {  }
+id: dias_semana
+label: 'Dias semana'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 47c84a1e-a3bb-47bd-a454-8b13fda8c272
+langcode: es
+status: true
+dependencies: {  }
+id: maverage
+label: MAVERAGE
+icon_uuid: null
+icon_default: null
+description: 'indicador MA'
+behavior_plugins: {  }

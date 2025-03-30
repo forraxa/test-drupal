@@ -1,0 +1,10 @@
+uuid: 24b3dedf-21cf-4dc3-8d2e-384a892d5292
+langcode: es
+status: true
+dependencies: {  }
+id: servicio_rest_recurso
+label: 'Servicio Rest Recurso'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

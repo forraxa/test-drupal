@@ -1,0 +1,8 @@
+uuid: 3106c4d6-8069-454d-afc5-06457fd3a67f
+langcode: es
+status: true
+dependencies: {  }
+name: Cliente
+vid: cliente
+description: ''
+weight: 0

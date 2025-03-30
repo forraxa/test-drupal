@@ -1,0 +1,10 @@
+uuid: 46672f56-35a6-4119-981a-50fb2607ee03
+langcode: es
+status: true
+dependencies: {  }
+id: componente_piechart
+label: 'Componente Piechart'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

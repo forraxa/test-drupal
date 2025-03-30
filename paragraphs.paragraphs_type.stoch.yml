@@ -1,0 +1,10 @@
+uuid: 5eb4352c-0330-44b5-9a3c-881b00a38895
+langcode: es
+status: true
+dependencies: {  }
+id: stoch
+label: STOCH
+icon_uuid: null
+icon_default: null
+description: 'Indicador stochastic'
+behavior_plugins: {  }
