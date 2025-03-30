@@ -1,0 +1,25 @@
+uuid: ef9cc9ff-ff05-465a-9eb9-d4d7020a943c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.bbands
+id: paragraph.bbands.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: bbands
+label: Periodo
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 20
+default_value_callback: ''
+settings:
+  min: 1
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

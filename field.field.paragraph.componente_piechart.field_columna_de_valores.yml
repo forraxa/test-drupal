@@ -1,0 +1,19 @@
+uuid: bb831b63-e648-463c-9499-c9ed1e60c625
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columna_de_valores
+    - paragraphs.paragraphs_type.componente_piechart
+id: paragraph.componente_piechart.field_columna_de_valores
+field_name: field_columna_de_valores
+entity_type: paragraph
+bundle: componente_piechart
+label: 'Columna de valores'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

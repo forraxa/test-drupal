@@ -1,0 +1,25 @@
+uuid: 1bc8da94-d943-43f4-8d1c-56685c52f9e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desviacion
+    - paragraphs.paragraphs_type.bbands
+id: paragraph.bbands.field_desviacion
+field_name: field_desviacion
+entity_type: paragraph
+bundle: bbands
+label: Desviación
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: !!float 2
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

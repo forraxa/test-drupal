@@ -1,0 +1,23 @@
+uuid: 8cca9838-14c6-48a6-8bac-ccfe7175f3e0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_ema
+    - paragraphs.paragraphs_type.ema
+  module:
+    - options
+id: paragraph.ema.field_condicion_ema
+field_name: field_condicion_ema
+entity_type: paragraph
+bundle: ema
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ema_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

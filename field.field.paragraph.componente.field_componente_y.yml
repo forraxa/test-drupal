@@ -1,0 +1,23 @@
+uuid: aed97116-dbca-4ebd-8645-c466ba4b345c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_componente_y
+    - paragraphs.paragraphs_type.componente
+id: paragraph.componente.field_componente_y
+field_name: field_componente_y
+entity_type: paragraph
+bundle: componente
+label: 'Columna eje Y'
+description: 'Número de columna'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

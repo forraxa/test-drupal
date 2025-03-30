@@ -1,0 +1,23 @@
+uuid: 1f42bc7f-f343-42a2-a049-93192165817a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.ema
+  module:
+    - options
+id: paragraph.ema.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: ema
+label: Aplicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

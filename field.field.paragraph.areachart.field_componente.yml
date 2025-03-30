@@ -1,0 +1,58 @@
+uuid: e7326312-f06f-4b5a-9d1c-98a29943cd38
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_componente
+    - paragraphs.paragraphs_type.areachart
+    - paragraphs.paragraphs_type.componente
+  module:
+    - entity_reference_revisions
+id: paragraph.areachart.field_componente
+field_name: field_componente
+entity_type: paragraph
+bundle: areachart
+label: Area
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      componente: componente
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: 11
+        enabled: false
+      barchart:
+        weight: 12
+        enabled: false
+      componente:
+        weight: 13
+        enabled: true
+      elasticsearch_recurso:
+        weight: 14
+        enabled: false
+      iconos_footer:
+        weight: 15
+        enabled: false
+      linechart:
+        weight: 16
+        enabled: false
+      mapa:
+        weight: 17
+        enabled: false
+      postgres_recurso:
+        weight: 18
+        enabled: false
+      subir_recurso:
+        weight: 19
+        enabled: false
+      tabla:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

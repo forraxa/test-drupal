@@ -1,0 +1,19 @@
+uuid: c36afcee-5e16-45c2-a400-5252870bfeb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_query
+    - paragraphs.paragraphs_type.elasticsearch_recurso
+id: paragraph.elasticsearch_recurso.field_query
+field_name: field_query
+entity_type: paragraph
+bundle: elasticsearch_recurso
+label: Query
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

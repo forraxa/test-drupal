@@ -1,0 +1,23 @@
+uuid: e27ce261-57cf-4f1e-8e2a-ea1e4e15dc89
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_atr
+    - paragraphs.paragraphs_type.atr
+  module:
+    - options
+id: paragraph.atr.field_condicion_atr
+field_name: field_condicion_atr
+entity_type: paragraph
+bundle: atr
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: atr_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

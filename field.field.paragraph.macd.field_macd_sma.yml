@@ -1,0 +1,25 @@
+uuid: 69032dce-750e-44f5-aa74-821e73806174
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_macd_sma
+    - paragraphs.paragraphs_type.macd
+id: paragraph.macd.field_macd_sma
+field_name: field_macd_sma
+entity_type: paragraph
+bundle: macd
+label: 'Macd Sma'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 15
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

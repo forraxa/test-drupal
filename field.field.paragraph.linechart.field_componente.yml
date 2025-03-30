@@ -1,0 +1,55 @@
+uuid: 85d29b89-0a86-4ff7-a8df-94962f5e76d2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_componente
+    - paragraphs.paragraphs_type.componente
+    - paragraphs.paragraphs_type.linechart
+  module:
+    - entity_reference_revisions
+id: paragraph.linechart.field_componente
+field_name: field_componente
+entity_type: paragraph
+bundle: linechart
+label: Línea
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      componente: componente
+    negate: 0
+    target_bundles_drag_drop:
+      barchart:
+        weight: 10
+        enabled: false
+      componente:
+        weight: 9
+        enabled: true
+      elasticsearch_recurso:
+        weight: 10
+        enabled: false
+      iconos_footer:
+        weight: 11
+        enabled: false
+      linechart:
+        weight: 12
+        enabled: false
+      mapa:
+        weight: 13
+        enabled: false
+      postgres_recurso:
+        weight: 14
+        enabled: false
+      subir_recurso:
+        weight: 15
+        enabled: false
+      tabla:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

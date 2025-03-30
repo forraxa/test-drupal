@@ -1,0 +1,23 @@
+uuid: 1e5424db-6117-467f-bf9c-70c842a59213
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.macd
+  module:
+    - options
+id: paragraph.macd.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: macd
+label: Aplicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

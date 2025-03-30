@@ -1,0 +1,23 @@
+uuid: 38a86945-024a-482a-babf-cd55c74063f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_leaflet
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.field_leaflet
+field_name: field_leaflet
+entity_type: paragraph
+bundle: mapa
+label: Leaflet
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

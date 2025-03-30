@@ -1,0 +1,25 @@
+uuid: abdb2cae-52b7-477a-baa0-7e628a6bf152
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.ema
+id: paragraph.ema.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: ema
+label: Periodo
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 14
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

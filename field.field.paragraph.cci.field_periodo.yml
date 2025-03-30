@@ -1,0 +1,25 @@
+uuid: 585a05e1-eba8-4c0e-84d0-f46bff7ad59c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.cci
+id: paragraph.cci.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: cci
+label: Periodo
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 14
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

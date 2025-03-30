@@ -1,0 +1,23 @@
+uuid: 6c984549-123b-4034-9afb-4cacae75ff10
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_cci
+    - paragraphs.paragraphs_type.cci
+  module:
+    - options
+id: paragraph.cci.field_condicion_cci
+field_name: field_condicion_cci
+entity_type: paragraph
+bundle: cci
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: cci_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

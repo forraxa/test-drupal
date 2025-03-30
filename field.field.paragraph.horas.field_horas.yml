@@ -1,0 +1,69 @@
+uuid: 2f7e6221-c647-4ee6-b330-19db1bb12e73
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_horas
+    - paragraphs.paragraphs_type.horas
+  module:
+    - options
+id: paragraph.horas.field_horas
+field_name: field_horas
+entity_type: paragraph
+bundle: horas
+label: Horas
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+  -
+    value: '2'
+  -
+    value: '3'
+  -
+    value: '4'
+  -
+    value: '5'
+  -
+    value: '6'
+  -
+    value: '7'
+  -
+    value: '8'
+  -
+    value: '9'
+  -
+    value: '10'
+  -
+    value: '11'
+  -
+    value: '12'
+  -
+    value: '13'
+  -
+    value: '14'
+  -
+    value: '15'
+  -
+    value: '16'
+  -
+    value: '17'
+  -
+    value: '18'
+  -
+    value: '19'
+  -
+    value: '20'
+  -
+    value: '21'
+  -
+    value: '22'
+  -
+    value: '23'
+  -
+    value: '00'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

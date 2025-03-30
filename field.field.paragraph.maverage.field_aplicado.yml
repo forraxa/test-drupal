@@ -1,0 +1,23 @@
+uuid: ec063827-773c-40f2-9a64-39f3fd7948e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.maverage
+  module:
+    - options
+id: paragraph.maverage.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: maverage
+label: Aplicado
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

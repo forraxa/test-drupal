@@ -1,0 +1,23 @@
+uuid: c3f4a9f8-bc93-4d13-922c-12e9e61a8999
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wms
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.field_wms
+field_name: field_wms
+entity_type: paragraph
+bundle: mapa
+label: WMS
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

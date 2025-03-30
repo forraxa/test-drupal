@@ -1,0 +1,55 @@
+uuid: 4aa3f5ad-7ff3-4512-b9af-248cb6442a1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_componente
+    - paragraphs.paragraphs_type.barchart
+    - paragraphs.paragraphs_type.componente
+  module:
+    - entity_reference_revisions
+id: paragraph.barchart.field_componente
+field_name: field_componente
+entity_type: paragraph
+bundle: barchart
+label: Barra
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      componente: componente
+    negate: 0
+    target_bundles_drag_drop:
+      barchart:
+        weight: 10
+        enabled: false
+      componente:
+        weight: 11
+        enabled: true
+      elasticsearch_recurso:
+        weight: 12
+        enabled: false
+      iconos_footer:
+        weight: 13
+        enabled: false
+      linechart:
+        weight: 14
+        enabled: false
+      mapa:
+        weight: 15
+        enabled: false
+      postgres_recurso:
+        weight: 16
+        enabled: false
+      subir_recurso:
+        weight: 17
+        enabled: false
+      tabla:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

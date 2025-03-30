@@ -1,0 +1,23 @@
+uuid: b847eada-cc22-472b-912c-cf0507101bfa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columna_latitud
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.field_columna_latitud
+field_name: field_columna_latitud
+entity_type: paragraph
+bundle: mapa
+label: 'Columna Latitud'
+description: 'Número de columna'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: 592918d0-0ded-439b-882c-1626882da15d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_periodo
+    - paragraphs.paragraphs_type.maverage
+id: paragraph.maverage.field_periodo
+field_name: field_periodo
+entity_type: paragraph
+bundle: maverage
+label: Periodo
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 50
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

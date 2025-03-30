@@ -1,0 +1,23 @@
+uuid: 48343794-f308-49d3-8ede-908cb8ceb901
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_bbands
+    - paragraphs.paragraphs_type.bbands
+  module:
+    - options
+id: paragraph.bbands.field_condicion_bbands
+field_name: field_condicion_bbands
+entity_type: paragraph
+bundle: bbands
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Precio_abre_sobre-banda_superior
+default_value_callback: ''
+settings: {  }
+field_type: list_string

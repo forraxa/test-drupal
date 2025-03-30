@@ -1,0 +1,23 @@
+uuid: 117ec9d7-518f-412d-b880-01700ba95f87
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_adx
+    - paragraphs.paragraphs_type.adx
+  module:
+    - options
+id: paragraph.adx.field_condicion_adx
+field_name: field_condicion_adx
+entity_type: paragraph
+bundle: adx
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: adx_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

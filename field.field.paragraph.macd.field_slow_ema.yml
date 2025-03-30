@@ -1,0 +1,25 @@
+uuid: 4db7950a-1642-43da-8947-5d3f15aeb14f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slow_ema
+    - paragraphs.paragraphs_type.macd
+id: paragraph.macd.field_slow_ema
+field_name: field_slow_ema
+entity_type: paragraph
+bundle: macd
+label: 'Slow Ema'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 10
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

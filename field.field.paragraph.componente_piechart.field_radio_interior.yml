@@ -1,0 +1,23 @@
+uuid: abf00cff-0d61-4f58-b88e-73716ada062b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_radio_interior
+    - paragraphs.paragraphs_type.componente_piechart
+id: paragraph.componente_piechart.field_radio_interior
+field_name: field_radio_interior
+entity_type: paragraph
+bundle: componente_piechart
+label: 'Radio interior'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 300
+  prefix: px
+  suffix: ''
+field_type: integer

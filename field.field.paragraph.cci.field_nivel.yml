@@ -1,0 +1,25 @@
+uuid: b1ffd16d-66d6-4829-aab3-9ae520762322
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.cci
+id: paragraph.cci.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: cci
+label: Nivel
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 62e4edf1-4ab5-4ff1-8d34-76d490db5b1e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_componente_x
+    - paragraphs.paragraphs_type.componente
+id: paragraph.componente.field_componente_x
+field_name: field_componente_x
+entity_type: paragraph
+bundle: componente
+label: 'Columna eje X'
+description: 'Número de columna'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

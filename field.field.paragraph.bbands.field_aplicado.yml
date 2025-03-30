@@ -1,0 +1,23 @@
+uuid: c97b7fb6-681f-46a2-a8b4-0a8f4e7b505c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.bbands
+  module:
+    - options
+id: paragraph.bbands.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: bbands
+label: Aplicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

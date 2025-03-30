@@ -1,0 +1,25 @@
+uuid: cafd0ce5-8c06-4ba9-957d-292a83c71ba3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fast_ema
+    - paragraphs.paragraphs_type.macd
+id: paragraph.macd.field_fast_ema
+field_name: field_fast_ema
+entity_type: paragraph
+bundle: macd
+label: 'Fast Ema'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 6
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: b5ba8493-dd97-4e1f-a8fa-86efbc637d62
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.atr
+id: paragraph.atr.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: atr
+label: Nivel
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

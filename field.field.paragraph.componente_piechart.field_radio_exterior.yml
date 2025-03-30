@@ -1,0 +1,23 @@
+uuid: f4c7b260-6e9a-4774-83e2-259ca26e89f3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_radio_exterior
+    - paragraphs.paragraphs_type.componente_piechart
+id: paragraph.componente_piechart.field_radio_exterior
+field_name: field_radio_exterior
+entity_type: paragraph
+bundle: componente_piechart
+label: 'Radio exterior'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 300
+  prefix: px
+  suffix: ''
+field_type: integer

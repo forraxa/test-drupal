@@ -1,0 +1,23 @@
+uuid: 3feb2f89-43de-4148-acee-c94cd826f474
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_todo_apilado
+    - paragraphs.paragraphs_type.barchart
+id: paragraph.barchart.field_todo_apilado
+field_name: field_todo_apilado
+entity_type: paragraph
+bundle: barchart
+label: 'BarChart apilados'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

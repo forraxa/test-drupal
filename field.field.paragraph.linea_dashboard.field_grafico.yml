@@ -1,0 +1,73 @@
+uuid: e9633b12-15a1-4d43-801a-73fc895bb846
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grafico
+    - paragraphs.paragraphs_type.grafico_dashboard
+    - paragraphs.paragraphs_type.linea_dashboard
+  module:
+    - entity_reference_revisions
+id: paragraph.linea_dashboard.field_grafico
+field_name: field_grafico
+entity_type: paragraph
+bundle: linea_dashboard
+label: Gráfico
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      grafico_dashboard: grafico_dashboard
+    negate: 0
+    target_bundles_drag_drop:
+      areachart:
+        weight: 17
+        enabled: false
+      barchart:
+        weight: 18
+        enabled: false
+      componente:
+        weight: 19
+        enabled: false
+      componente_piechart:
+        weight: 20
+        enabled: false
+      elasticsearch_recurso:
+        weight: 21
+        enabled: false
+      grafico_dashboard:
+        weight: 22
+        enabled: true
+      iconos_footer:
+        weight: 23
+        enabled: false
+      linea_dashboard:
+        weight: 16
+        enabled: false
+      linechart:
+        weight: 24
+        enabled: false
+      mapa:
+        weight: 25
+        enabled: false
+      piechart:
+        weight: 26
+        enabled: false
+      postgres_recurso:
+        weight: 27
+        enabled: false
+      servicio_rest_recurso:
+        weight: 28
+        enabled: false
+      subir_recurso:
+        weight: 29
+        enabled: false
+      tabla:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

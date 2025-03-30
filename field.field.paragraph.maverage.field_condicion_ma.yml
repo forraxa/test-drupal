@@ -1,0 +1,23 @@
+uuid: ff042fb7-f363-4225-a13f-514a6355f11a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_ma
+    - paragraphs.paragraphs_type.maverage
+  module:
+    - options
+id: paragraph.maverage.field_condicion_ma
+field_name: field_condicion_ma
+entity_type: paragraph
+bundle: maverage
+label: Condición
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: ma_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

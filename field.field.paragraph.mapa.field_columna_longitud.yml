@@ -1,0 +1,23 @@
+uuid: f74df10f-a49d-4d75-96bc-9d0e8fe24f82
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columna_longitud
+    - paragraphs.paragraphs_type.mapa
+id: paragraph.mapa.field_columna_longitud
+field_name: field_columna_longitud
+entity_type: paragraph
+bundle: mapa
+label: 'Columna Longitud'
+description: 'Número de columna'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

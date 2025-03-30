@@ -1,0 +1,35 @@
+uuid: dbf6dfc7-e446-4e90-8275-0dee98a19289
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dias_semana
+    - paragraphs.paragraphs_type.dias_semana
+  module:
+    - options
+id: paragraph.dias_semana.field_dias_semana
+field_name: field_dias_semana
+entity_type: paragraph
+bundle: dias_semana
+label: 'Dias semana'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+  -
+    value: '2'
+  -
+    value: '3'
+  -
+    value: '4'
+  -
+    value: '5'
+  -
+    value: '6'
+  -
+    value: '7'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

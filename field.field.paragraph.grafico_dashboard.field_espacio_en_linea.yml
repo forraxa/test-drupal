@@ -1,0 +1,23 @@
+uuid: 8d983c09-68d5-4bc5-ab3a-c2032fd444c4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_espacio_en_linea
+    - paragraphs.paragraphs_type.grafico_dashboard
+id: paragraph.grafico_dashboard.field_espacio_en_linea
+field_name: field_espacio_en_linea
+entity_type: paragraph
+bundle: grafico_dashboard
+label: 'Espacio en linea'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 25
+  max: 100
+  prefix: '%'
+  suffix: ''
+field_type: integer

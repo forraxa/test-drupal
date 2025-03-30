@@ -1,0 +1,19 @@
+uuid: 06605b13-9ba5-4c8e-ad6b-625ab6d0ee9a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columna_de_nombres
+    - paragraphs.paragraphs_type.componente_piechart
+id: paragraph.componente_piechart.field_columna_de_nombres
+field_name: field_columna_de_nombres
+entity_type: paragraph
+bundle: componente_piechart
+label: 'Columna de nombres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

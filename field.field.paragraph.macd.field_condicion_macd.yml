@@ -1,0 +1,23 @@
+uuid: 451f5895-17ab-40cb-be39-970428289849
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_condicion_macd
+    - paragraphs.paragraphs_type.macd
+  module:
+    - options
+id: paragraph.macd.field_condicion_macd
+field_name: field_condicion_macd
+entity_type: paragraph
+bundle: macd
+label: Condición
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: macd_ascendente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

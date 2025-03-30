@@ -1,0 +1,19 @@
+uuid: e9cf2d88-fb97-4e77-80f6-5f345bfc4314
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_descripcion
+    - paragraphs.paragraphs_type.grafico_dashboard
+id: paragraph.grafico_dashboard.field_descripcion
+field_name: field_descripcion
+entity_type: paragraph
+bundle: grafico_dashboard
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

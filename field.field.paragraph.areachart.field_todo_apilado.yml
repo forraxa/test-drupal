@@ -1,0 +1,23 @@
+uuid: 5545bdb9-bc7e-4392-a195-2308221f7587
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_todo_apilado
+    - paragraphs.paragraphs_type.areachart
+id: paragraph.areachart.field_todo_apilado
+field_name: field_todo_apilado
+entity_type: paragraph
+bundle: areachart
+label: 'AreaChart apilados'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

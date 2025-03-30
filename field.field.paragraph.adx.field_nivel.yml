@@ -1,0 +1,25 @@
+uuid: fdf20186-b01d-44fb-b61b-66d14c9e2f28
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nivel
+    - paragraphs.paragraphs_type.adx
+id: paragraph.adx.field_nivel
+field_name: field_nivel
+entity_type: paragraph
+bundle: adx
+label: Nivel
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: a35f3bbf-8cb2-40c1-b9ac-ed8d6aa77ece
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_aplicado
+    - paragraphs.paragraphs_type.mom
+  module:
+    - options
+id: paragraph.mom.field_aplicado
+field_name: field_aplicado
+entity_type: paragraph
+bundle: mom
+label: Aplicado
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

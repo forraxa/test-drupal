@@ -1,0 +1,19 @@
+uuid: 0d808905-c8a2-4827-87f8-64baddc21bbd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nombre
+    - paragraphs.paragraphs_type.componente
+id: paragraph.componente.field_nombre
+field_name: field_nombre
+entity_type: paragraph
+bundle: componente
+label: Nombre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
